@@ -1,5 +1,5 @@
 Analysis & Synthesis report for ULA
-Fri Aug 23 07:57:43 2013
+Fri Aug 23 18:20:10 2013
 Quartus II 32-bit Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition
 
 
@@ -13,11 +13,14 @@ Quartus II 32-bit Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Editio
   5. Analysis & Synthesis Source Files Read
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
-  8. User-Specified and Inferred Latches
-  9. General Register Statistics
- 10. Multiplexer Restructuring Statistics (Restructuring Performed)
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. User-Specified and Inferred Latches
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0
+ 13. lpm_mult Parameter Settings by Entity Instance
+ 14. Elapsed Time Per Partition
+ 15. Analysis & Synthesis Messages
 
 
 
@@ -43,19 +46,19 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                       ;
 +------------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Aug 23 07:57:42 2013         ;
+; Analysis & Synthesis Status        ; Successful - Fri Aug 23 18:20:10 2013         ;
 ; Quartus II 32-bit Version          ; 12.0 Build 232 07/05/2012 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ULA                                           ;
 ; Top-level Entity Name              ; ULA                                           ;
 ; Family                             ; Cyclone II                                    ;
-; Total logic elements               ; 25                                            ;
-;     Total combinational functions  ; 25                                            ;
+; Total logic elements               ; 106                                           ;
+;     Total combinational functions  ; 106                                           ;
 ;     Dedicated logic registers      ; 0                                             ;
 ; Total registers                    ; 0                                             ;
 ; Total pins                         ; 30                                            ;
 ; Total virtual pins                 ; 0                                             ;
 ; Total memory bits                  ; 0                                             ;
-; Embedded Multiplier 9-bit elements ; 0                                             ;
+; Embedded Multiplier 9-bit elements ; 1                                             ;
 ; Total PLLs                         ; 0                                             ;
 +------------------------------------+-----------------------------------------------+
 
@@ -155,13 +158,20 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                 ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                          ; Library ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+---------+
-; ULA.vhd                          ; yes             ; User VHDL File  ; C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA/ULA.vhd ;         ;
-+----------------------------------+-----------------+-----------------+---------------------------------------------------------------------------------------+---------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                      ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                  ; Library ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
+; ULA.vhd                          ; yes             ; User VHDL File               ; C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA/ULA.vhd         ;         ;
+; lpm_mult.tdf                     ; yes             ; Megafunction                 ; c:/altera/12.0sp1/quartus/libraries/megafunctions/lpm_mult.tdf                                ;         ;
+; aglobal120.inc                   ; yes             ; Megafunction                 ; c:/altera/12.0sp1/quartus/libraries/megafunctions/aglobal120.inc                              ;         ;
+; lpm_add_sub.inc                  ; yes             ; Megafunction                 ; c:/altera/12.0sp1/quartus/libraries/megafunctions/lpm_add_sub.inc                             ;         ;
+; multcore.inc                     ; yes             ; Megafunction                 ; c:/altera/12.0sp1/quartus/libraries/megafunctions/multcore.inc                                ;         ;
+; bypassff.inc                     ; yes             ; Megafunction                 ; c:/altera/12.0sp1/quartus/libraries/megafunctions/bypassff.inc                                ;         ;
+; altshift.inc                     ; yes             ; Megafunction                 ; c:/altera/12.0sp1/quartus/libraries/megafunctions/altshift.inc                                ;         ;
+; db/mult_o5t.tdf                  ; yes             ; Auto-Generated Megafunction  ; C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA/db/mult_o5t.tdf ;         ;
++----------------------------------+-----------------+------------------------------+-----------------------------------------------------------------------------------------------+---------+
 
 
 +-----------------------------------------------------------+
@@ -169,55 +179,101 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+-------------+
 ; Resource                                    ; Usage       ;
 +---------------------------------------------+-------------+
-; Estimated Total logic elements              ; 25          ;
+; Estimated Total logic elements              ; 106         ;
 ;                                             ;             ;
-; Total combinational functions               ; 25          ;
+; Total combinational functions               ; 106         ;
 ; Logic element usage by number of LUT inputs ;             ;
-;     -- 4 input functions                    ; 9           ;
-;     -- 3 input functions                    ; 16          ;
-;     -- <=2 input functions                  ; 0           ;
+;     -- 4 input functions                    ; 37          ;
+;     -- 3 input functions                    ; 58          ;
+;     -- <=2 input functions                  ; 11          ;
 ;                                             ;             ;
 ; Logic elements by mode                      ;             ;
-;     -- normal mode                          ; 25          ;
-;     -- arithmetic mode                      ; 0           ;
+;     -- normal mode                          ; 92          ;
+;     -- arithmetic mode                      ; 14          ;
 ;                                             ;             ;
 ; Total registers                             ; 0           ;
 ;     -- Dedicated logic registers            ; 0           ;
 ;     -- I/O registers                        ; 0           ;
 ;                                             ;             ;
 ; I/O pins                                    ; 30          ;
+; Embedded Multiplier 9-bit elements          ; 1           ;
 ; Maximum fan-out node                        ; ULA_ctrl[0] ;
-; Maximum fan-out                             ; 9           ;
-; Total fan-out                               ; 92          ;
-; Average fan-out                             ; 1.67        ;
+; Maximum fan-out                             ; 21          ;
+; Total fan-out                               ; 369         ;
+; Average fan-out                             ; 2.67        ;
 +---------------------------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                         ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |ULA                       ; 25 (25)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 30   ; 0            ; |ULA                ;              ;
-+----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                      ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------+--------------+
+; Compilation Hierarchy Node      ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                         ; Library Name ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------+--------------+
+; |ULA                            ; 106 (106)         ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 30   ; 0            ; |ULA                                        ;              ;
+;    |lpm_mult:Mult0|             ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |ULA|lpm_mult:Mult0                         ;              ;
+;       |mult_o5t:auto_generated| ; 0 (0)             ; 0 (0)        ; 0           ; 1            ; 1       ; 0         ; 0    ; 0            ; |ULA|lpm_mult:Mult0|mult_o5t:auto_generated ;              ;
++---------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
-+---------------------------------------------------------------------------------------------------+
-; User-Specified and Inferred Latches                                                               ;
-+----------------------------------------------------+---------------------+------------------------+
-; Latch Name                                         ; Latch Enable Signal ; Free of Timing Hazards ;
-+----------------------------------------------------+---------------------+------------------------+
-; saida[0]$latch                                     ; Mux8                ; yes                    ;
-; saida[1]$latch                                     ; Mux8                ; yes                    ;
-; saida[2]$latch                                     ; Mux8                ; yes                    ;
-; saida[3]$latch                                     ; Mux8                ; yes                    ;
-; saida[4]$latch                                     ; Mux8                ; yes                    ;
-; saida[5]$latch                                     ; Mux8                ; yes                    ;
-; saida[6]$latch                                     ; Mux8                ; yes                    ;
-; saida[7]$latch                                     ; Mux8                ; yes                    ;
-; Number of user-specified and inferred latches = 8  ;                     ;                        ;
-+----------------------------------------------------+---------------------+------------------------+
++-----------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary        ;
++---------------------------------------+-------------+
+; Statistic                             ; Number Used ;
++---------------------------------------+-------------+
+; Simple Multipliers (9-bit)            ; 1           ;
+; Simple Multipliers (18-bit)           ; 0           ;
+; Embedded Multiplier Blocks            ; --          ;
+; Embedded Multiplier 9-bit elements    ; 1           ;
+; Signed Embedded Multipliers           ; 0           ;
+; Unsigned Embedded Multipliers         ; 1           ;
+; Mixed Sign Embedded Multipliers       ; 0           ;
+; Variable Sign Embedded Multipliers    ; 0           ;
+; Dedicated Input Shift Register Chains ; 0           ;
++---------------------------------------+-------------+
+Note: number of Embedded Multiplier Blocks used is only available after a successful fit.
+
+
++----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                ;
++-----------------------------------------------------+---------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal ; Free of Timing Hazards ;
++-----------------------------------------------------+---------------------+------------------------+
+; saida[0]$latch                                      ; Mux34               ; yes                    ;
+; saida[1]$latch                                      ; Mux34               ; yes                    ;
+; saida[2]$latch                                      ; Mux34               ; yes                    ;
+; saida[3]$latch                                      ; Mux34               ; yes                    ;
+; saida[4]$latch                                      ; Mux34               ; yes                    ;
+; saida[5]$latch                                      ; Mux34               ; yes                    ;
+; saida[6]$latch                                      ; Mux34               ; yes                    ;
+; saida[7]$latch                                      ; Mux34               ; yes                    ;
+; Z$latch                                             ; Mux34               ; yes                    ;
+; temp_mult[0]                                        ; Mux10               ; yes                    ;
+; temp_mult[8]                                        ; Mux10               ; yes                    ;
+; temp[0]                                             ; Mux1                ; yes                    ;
+; temp_mult[1]                                        ; Mux10               ; yes                    ;
+; temp_mult[9]                                        ; Mux10               ; yes                    ;
+; temp[1]                                             ; Mux1                ; yes                    ;
+; temp_mult[2]                                        ; Mux10               ; yes                    ;
+; temp_mult[10]                                       ; Mux10               ; yes                    ;
+; temp[2]                                             ; Mux1                ; yes                    ;
+; temp_mult[3]                                        ; Mux10               ; yes                    ;
+; temp_mult[11]                                       ; Mux10               ; yes                    ;
+; temp[3]                                             ; Mux1                ; yes                    ;
+; temp_mult[4]                                        ; Mux10               ; yes                    ;
+; temp_mult[12]                                       ; Mux10               ; yes                    ;
+; temp[4]                                             ; Mux1                ; yes                    ;
+; temp_mult[5]                                        ; Mux10               ; yes                    ;
+; temp_mult[13]                                       ; Mux10               ; yes                    ;
+; temp[5]                                             ; Mux1                ; yes                    ;
+; temp_mult[6]                                        ; Mux10               ; yes                    ;
+; temp_mult[14]                                       ; Mux10               ; yes                    ;
+; temp[6]                                             ; Mux1                ; yes                    ;
+; temp_mult[7]                                        ; Mux10               ; yes                    ;
+; temp_mult[15]                                       ; Mux10               ; yes                    ;
+; temp[7]                                             ; Mux1                ; yes                    ;
+; Number of user-specified and inferred latches = 33  ;                     ;                        ;
++-----------------------------------------------------+---------------------+------------------------+
 Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
 
 
@@ -241,8 +297,64 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
-; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; |ULA|Mux0  ;                            ;
+; 1:1                ; 8 bits    ; 0 LEs         ; 0 LEs                ; 0 LEs                  ; |ULA|Mux4  ;                            ;
+; 10:1               ; 8 bits    ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; |ULA|Mux33 ;                            ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+----------------------------+
+
+
++-----------------------------------------------------------------------------------+
+; Parameter Settings for Inferred Entity Instance: lpm_mult:Mult0                   ;
++------------------------------------------------+------------+---------------------+
+; Parameter Name                                 ; Value      ; Type                ;
++------------------------------------------------+------------+---------------------+
+; AUTO_CARRY_CHAINS                              ; ON         ; AUTO_CARRY          ;
+; IGNORE_CARRY_BUFFERS                           ; OFF        ; IGNORE_CARRY        ;
+; AUTO_CASCADE_CHAINS                            ; ON         ; AUTO_CASCADE        ;
+; IGNORE_CASCADE_BUFFERS                         ; OFF        ; IGNORE_CASCADE      ;
+; LPM_WIDTHA                                     ; 8          ; Untyped             ;
+; LPM_WIDTHB                                     ; 8          ; Untyped             ;
+; LPM_WIDTHP                                     ; 16         ; Untyped             ;
+; LPM_WIDTHR                                     ; 16         ; Untyped             ;
+; LPM_WIDTHS                                     ; 1          ; Untyped             ;
+; LPM_REPRESENTATION                             ; UNSIGNED   ; Untyped             ;
+; LPM_PIPELINE                                   ; 0          ; Untyped             ;
+; LATENCY                                        ; 0          ; Untyped             ;
+; INPUT_A_IS_CONSTANT                            ; NO         ; Untyped             ;
+; INPUT_B_IS_CONSTANT                            ; NO         ; Untyped             ;
+; USE_EAB                                        ; OFF        ; Untyped             ;
+; MAXIMIZE_SPEED                                 ; 5          ; Untyped             ;
+; DEVICE_FAMILY                                  ; Cyclone II ; Untyped             ;
+; CARRY_CHAIN                                    ; MANUAL     ; Untyped             ;
+; APEX20K_TECHNOLOGY_MAPPER                      ; LUT        ; TECH_MAPPER_APEX20K ;
+; DEDICATED_MULTIPLIER_CIRCUITRY                 ; AUTO       ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_INPUT_WIDTH_FOR_AUTO  ; 0          ; Untyped             ;
+; DEDICATED_MULTIPLIER_MIN_OUTPUT_WIDTH_FOR_AUTO ; 0          ; Untyped             ;
+; CBXI_PARAMETER                                 ; mult_o5t   ; Untyped             ;
+; INPUT_A_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; INPUT_B_FIXED_VALUE                            ; Bx         ; Untyped             ;
+; USE_AHDL_IMPLEMENTATION                        ; OFF        ; Untyped             ;
++------------------------------------------------+------------+---------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; lpm_mult Parameter Settings by Entity Instance         ;
++---------------------------------------+----------------+
+; Name                                  ; Value          ;
++---------------------------------------+----------------+
+; Number of entity instances            ; 1              ;
+; Entity Instance                       ; lpm_mult:Mult0 ;
+;     -- LPM_WIDTHA                     ; 8              ;
+;     -- LPM_WIDTHB                     ; 8              ;
+;     -- LPM_WIDTHP                     ; 16             ;
+;     -- LPM_REPRESENTATION             ; UNSIGNED       ;
+;     -- INPUT_A_IS_CONSTANT            ; NO             ;
+;     -- INPUT_B_IS_CONSTANT            ; NO             ;
+;     -- USE_EAB                        ; OFF            ;
+;     -- DEDICATED_MULTIPLIER_CIRCUITRY ; AUTO           ;
+;     -- INPUT_A_FIXED_VALUE            ; Bx             ;
+;     -- INPUT_B_FIXED_VALUE            ; Bx             ;
++---------------------------------------+----------------+
 
 
 +-------------------------------+
@@ -250,7 +362,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:02     ;
+; Top            ; 00:00:04     ;
 +----------------+--------------+
 
 
@@ -260,55 +372,103 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition
-    Info: Processing started: Fri Aug 23 07:57:33 2013
+    Info: Processing started: Fri Aug 23 18:20:00 2013
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off ULA -c ULA
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file ula.vhd
     Info (12022): Found design unit 1: ULA-ula_descrita
     Info (12023): Found entity 1: ULA
 Info (12127): Elaborating entity "ULA" for the top level hierarchy
-Warning (10631): VHDL Process Statement warning at ULA.vhd(28): inferring latch(es) for signal or variable "Z", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at ULA.vhd(28): inferring latch(es) for signal or variable "N", which holds its previous value in one or more paths through the process
-Warning (10631): VHDL Process Statement warning at ULA.vhd(28): inferring latch(es) for signal or variable "saida", which holds its previous value in one or more paths through the process
-Info (10041): Inferred latch for "saida[0]" at ULA.vhd(28)
-Info (10041): Inferred latch for "saida[1]" at ULA.vhd(28)
-Info (10041): Inferred latch for "saida[2]" at ULA.vhd(28)
-Info (10041): Inferred latch for "saida[3]" at ULA.vhd(28)
-Info (10041): Inferred latch for "saida[4]" at ULA.vhd(28)
-Info (10041): Inferred latch for "saida[5]" at ULA.vhd(28)
-Info (10041): Inferred latch for "saida[6]" at ULA.vhd(28)
-Info (10041): Inferred latch for "saida[7]" at ULA.vhd(28)
-Info (10041): Inferred latch for "N" at ULA.vhd(28)
-Info (10041): Inferred latch for "Z" at ULA.vhd(28)
+Warning (10492): VHDL Process Statement warning at ULA.vhd(57): signal "temp_mult" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ULA.vhd(61): signal "temp_mult" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ULA.vhd(64): signal "temp" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ULA.vhd(70): signal "temp" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at ULA.vhd(75): signal "temp" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10631): VHDL Process Statement warning at ULA.vhd(30): inferring latch(es) for signal or variable "Z", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at ULA.vhd(30): inferring latch(es) for signal or variable "N", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at ULA.vhd(30): inferring latch(es) for signal or variable "saida", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at ULA.vhd(30): inferring latch(es) for signal or variable "temp_mult", which holds its previous value in one or more paths through the process
+Warning (10631): VHDL Process Statement warning at ULA.vhd(30): inferring latch(es) for signal or variable "temp", which holds its previous value in one or more paths through the process
+Info (10041): Inferred latch for "temp[0]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp[1]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp[2]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp[3]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp[4]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp[5]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp[6]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp[7]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[0]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[1]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[2]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[3]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[4]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[5]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[6]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[7]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[8]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[9]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[10]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[11]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[12]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[13]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[14]" at ULA.vhd(30)
+Info (10041): Inferred latch for "temp_mult[15]" at ULA.vhd(30)
+Info (10041): Inferred latch for "saida[0]" at ULA.vhd(30)
+Info (10041): Inferred latch for "saida[1]" at ULA.vhd(30)
+Info (10041): Inferred latch for "saida[2]" at ULA.vhd(30)
+Info (10041): Inferred latch for "saida[3]" at ULA.vhd(30)
+Info (10041): Inferred latch for "saida[4]" at ULA.vhd(30)
+Info (10041): Inferred latch for "saida[5]" at ULA.vhd(30)
+Info (10041): Inferred latch for "saida[6]" at ULA.vhd(30)
+Info (10041): Inferred latch for "saida[7]" at ULA.vhd(30)
+Info (10041): Inferred latch for "N" at ULA.vhd(30)
+Info (10041): Inferred latch for "Z" at ULA.vhd(30)
+Info (278001): Inferred 1 megafunctions from design logic
+    Info (278003): Inferred multiplier megafunction ("lpm_mult") from the following logic: "Mult0"
+Info (12130): Elaborated megafunction instantiation "lpm_mult:Mult0"
+Info (12133): Instantiated megafunction "lpm_mult:Mult0" with the following parameter:
+    Info (12134): Parameter "LPM_WIDTHA" = "8"
+    Info (12134): Parameter "LPM_WIDTHB" = "8"
+    Info (12134): Parameter "LPM_WIDTHP" = "16"
+    Info (12134): Parameter "LPM_WIDTHR" = "16"
+    Info (12134): Parameter "LPM_WIDTHS" = "1"
+    Info (12134): Parameter "LPM_REPRESENTATION" = "UNSIGNED"
+    Info (12134): Parameter "INPUT_A_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "INPUT_B_IS_CONSTANT" = "NO"
+    Info (12134): Parameter "MAXIMIZE_SPEED" = "5"
+Info (12021): Found 1 design units, including 1 entities, in source file db/mult_o5t.tdf
+    Info (12023): Found entity 1: mult_o5t
 Warning (13012): Latch saida[0]$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[2]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[3]
 Warning (13012): Latch saida[1]$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[2]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[3]
 Warning (13012): Latch saida[2]$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[2]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[3]
 Warning (13012): Latch saida[3]$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[2]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[3]
 Warning (13012): Latch saida[4]$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[2]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[3]
 Warning (13012): Latch saida[5]$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[2]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[3]
 Warning (13012): Latch saida[6]$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[2]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[3]
 Warning (13012): Latch saida[7]$latch has unsafe behavior
-    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[2]
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[3]
+Warning (13012): Latch Z$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal ULA_ctrl[3]
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "Z" is stuck at GND
     Warning (13410): Pin "N" is stuck at GND
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 55 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 137 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 20 input pins
     Info (21059): Implemented 10 output pins
-    Info (21061): Implemented 25 logic cells
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 23 warnings
-    Info: Peak virtual memory: 329 megabytes
-    Info: Processing ended: Fri Aug 23 07:57:43 2013
+    Info (21061): Implemented 106 logic cells
+    Info (21062): Implemented 1 DSP elements
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 31 warnings
+    Info: Peak virtual memory: 347 megabytes
+    Info: Processing ended: Fri Aug 23 18:20:10 2013
     Info: Elapsed time: 00:00:10
-    Info: Total CPU time (on all processors): 00:00:09
+    Info: Total CPU time (on all processors): 00:00:10
 
 

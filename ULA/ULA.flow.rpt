@@ -1,5 +1,5 @@
 Flow report for ULA
-Fri Aug 23 07:57:43 2013
+Fri Aug 23 18:20:10 2013
 Quartus II 32-bit Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition
 
 
@@ -38,21 +38,21 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------+
 ; Flow Summary                                                                       ;
 +------------------------------------+-----------------------------------------------+
-; Flow Status                        ; Successful - Fri Aug 23 07:57:43 2013         ;
+; Flow Status                        ; Successful - Fri Aug 23 18:20:10 2013         ;
 ; Quartus II 32-bit Version          ; 12.0 Build 232 07/05/2012 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ULA                                           ;
 ; Top-level Entity Name              ; ULA                                           ;
 ; Family                             ; Cyclone II                                    ;
 ; Device                             ; EP2C35F672C6                                  ;
 ; Timing Models                      ; Final                                         ;
-; Total logic elements               ; 25                                            ;
-;     Total combinational functions  ; 25                                            ;
+; Total logic elements               ; 106                                           ;
+;     Total combinational functions  ; 106                                           ;
 ;     Dedicated logic registers      ; 0                                             ;
 ; Total registers                    ; 0                                             ;
 ; Total pins                         ; 30                                            ;
 ; Total virtual pins                 ; 0                                             ;
 ; Total memory bits                  ; 0                                             ;
-; Embedded Multiplier 9-bit elements ; 0                                             ;
+; Embedded Multiplier 9-bit elements ; 1                                             ;
 ; Total PLLs                         ; 0                                             ;
 +------------------------------------+-----------------------------------------------+
 
@@ -62,7 +62,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/23/2013 07:57:35 ;
+; Start date & time ; 08/23/2013 18:20:01 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ULA                 ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ applicable agreement for further details.
 +-------------------------------------+------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 120906615157.137725545502892 ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 120906615157.137729280002516 ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 85                           ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; 0                            ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; 16764057                     ; --            ; --          ; Top        ;
@@ -87,8 +87,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:09     ; 1.0                     ; 324 MB              ; 00:00:09                           ;
-; Total                ; 00:00:09     ; --                      ; --                  ; 00:00:09                           ;
+; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 342 MB              ; 00:00:09                           ;
+; Total                ; 00:00:10     ; --                      ; --                  ; 00:00:09                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
