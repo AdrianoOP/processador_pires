@@ -18,7 +18,7 @@
 #
 # Quartus II 32-bit
 # Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition
-# Date created = 07:02:22  August 23, 2013
+# Date created = 23:39:58  August 27, 2013
 #
 # -------------------------------------------------------------------------- #
 #
@@ -36,17 +36,15 @@
 # -------------------------------------------------------------------------- #
 
 
-set_global_assignment -name FAMILY "Cyclone II"
-set_global_assignment -name DEVICE EP2C35F672C6
+set_global_assignment -name FAMILY "Cyclone IV GX"
+set_global_assignment -name DEVICE AUTO
 set_global_assignment -name TOP_LEVEL_ENTITY ULA
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION "12.0 SP1"
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "07:02:22  AUGUST 23, 2013"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "23:39:58  AUGUST 27, 2013"
 set_global_assignment -name LAST_QUARTUS_VERSION "12.0 SP1"
-set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
-set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
-set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
-set_global_assignment -name VHDL_FILE ULA.vhd
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
+set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

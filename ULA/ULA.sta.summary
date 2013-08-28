@@ -1,0 +1,53 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ULA_ctrl[1]'
+Slack : -2.563
+TNS   : -19.170
+
+Type  : Slow 1200mV 85C Model Hold 'ULA_ctrl[1]'
+Slack : -0.566
+TNS   : -3.577
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ULA_ctrl[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ULA_ctrl[1]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Setup 'ULA_ctrl[1]'
+Slack : -2.240
+TNS   : -16.691
+
+Type  : Slow 1200mV 0C Model Hold 'ULA_ctrl[1]'
+Slack : -0.500
+TNS   : -3.001
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ULA_ctrl[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ULA_ctrl[1]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Setup 'ULA_ctrl[1]'
+Slack : -1.520
+TNS   : -11.431
+
+Type  : Fast 1200mV 0C Model Hold 'ULA_ctrl[1]'
+Slack : -0.418
+TNS   : -2.972
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ULA_ctrl[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ULA_ctrl[1]'
+Slack : -3.000
+TNS   : -3.000
+
+------------------------------------------------------------

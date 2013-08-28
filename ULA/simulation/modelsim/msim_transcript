@@ -1,0 +1,55 @@
+# Reading C:/altera/12.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ULA_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {ULA_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneiv_atom_pack
+# -- Loading package cycloneiv_components
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ULA
+# -- Compiling architecture structure of ULA
+# 
+cd C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA
+# reading C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA/ULA_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ULA
+# -- Compiling architecture ula_descrita of ULA
+# -- Compiling entity ULA_simu
+# -- Compiling architecture estimulos of ULA_simu
+# vsim -t ns work.ULA_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ula_simu(estimulos)
+# Loading work.ula(ula_descrita)
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /ula_simu/ULA1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 0 ns  Iteration: 0  Instance: /ula_simu/ULA1
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 79 ns  Iteration: 2  Instance: /ula_simu/ULA1
+# ** Warning: NUMERIC_STD."<": metavalue detected, returning FALSE
+#    Time: 79 ns  Iteration: 2  Instance: /ula_simu/ULA1

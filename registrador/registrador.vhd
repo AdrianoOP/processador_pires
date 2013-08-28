@@ -15,15 +15,14 @@ begin
 	PROCESS(clock)	BEGIN	
 		IF RISING_EDGE(clock) AND r_en='1' THEN
 			temp<=d_in;
-		END IF;
-		
+		END IF;		
 	END PROCESS;
 		
-	PROCESS(r_ctrl)	BEGIN	
+	PROCESS(r_ctrl, temp)	BEGIN	
 		if r_ctrl/='1' THEN
 			d_out<="ZZZZZZZZ";
-		else
+		ELSE
 			d_out<=temp;
-		end if;
+		END IF;
 	end process;
 end reg8b;

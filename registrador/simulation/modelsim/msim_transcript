@@ -1,0 +1,62 @@
+# Reading C:/altera/12.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do registrador_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {registrador.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity registrador
+# -- Compiling architecture structure of registrador
+# 
+cd C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador
+# reading C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registrador
+# -- Compiling architecture reg8b of registrador
+# -- Compiling entity registrador_simu
+# -- Compiling architecture estimulos of registrador_simu
+# vsim -t ns work.registrador_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.registrador_simu(estimulos)
+# Loading work.registrador(reg8b)
+# .main_pane.wave.interior.cs.body.pw.wf
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registrador
+# -- Compiling architecture reg8b of registrador
+# -- Compiling entity registrador_simu
+# -- Compiling architecture estimulos of registrador_simu
+# vsim -t ns work.registrador_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.registrador_simu(estimulos)
+# Loading work.registrador(reg8b)
+# .main_pane.wave.interior.cs.body.pw.wf

@@ -1,5 +1,5 @@
 Flow report for ULA
-Fri Aug 23 18:20:10 2013
+Wed Aug 28 00:19:37 2013
 Quartus II 32-bit Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition
 
 
@@ -38,21 +38,23 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------+
 ; Flow Summary                                                                       ;
 +------------------------------------+-----------------------------------------------+
-; Flow Status                        ; Successful - Fri Aug 23 18:20:10 2013         ;
+; Flow Status                        ; Successful - Wed Aug 28 00:19:37 2013         ;
 ; Quartus II 32-bit Version          ; 12.0 Build 232 07/05/2012 SP 1 SJ Web Edition ;
 ; Revision Name                      ; ULA                                           ;
 ; Top-level Entity Name              ; ULA                                           ;
-; Family                             ; Cyclone II                                    ;
-; Device                             ; EP2C35F672C6                                  ;
-; Timing Models                      ; Final                                         ;
-; Total logic elements               ; 106                                           ;
-;     Total combinational functions  ; 106                                           ;
+; Family                             ; Cyclone IV GX                                 ;
+; Total logic elements               ; 175                                           ;
+;     Total combinational functions  ; 175                                           ;
 ;     Dedicated logic registers      ; 0                                             ;
 ; Total registers                    ; 0                                             ;
 ; Total pins                         ; 30                                            ;
 ; Total virtual pins                 ; 0                                             ;
 ; Total memory bits                  ; 0                                             ;
-; Embedded Multiplier 9-bit elements ; 1                                             ;
+; Embedded Multiplier 9-bit elements ; 0                                             ;
+; Total GXB Receiver Channel PCS     ; 0                                             ;
+; Total GXB Receiver Channel PMA     ; 0                                             ;
+; Total GXB Transmitter Channel PCS  ; 0                                             ;
+; Total GXB Transmitter Channel PMA  ; 0                                             ;
 ; Total PLLs                         ; 0                                             ;
 +------------------------------------+-----------------------------------------------+
 
@@ -62,24 +64,24 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/23/2013 18:20:01 ;
+; Start date & time ; 08/28/2013 00:19:24 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; ULA                 ;
 +-------------------+---------------------+
 
 
-+---------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                              ;
-+-------------------------------------+------------------------------+---------------+-------------+------------+
-; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id ;
-+-------------------------------------+------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 120906615157.137729280002516 ; --            ; --          ; --         ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                           ; --            ; --          ; --         ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                            ; --            ; --          ; --         ;
-; PARTITION_COLOR                     ; 16764057                     ; --            ; --          ; Top        ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; --          ; Top        ;
-; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; --          ; Top        ;
-+-------------------------------------+------------------------------+---------------+-------------+------------+
++-------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                  ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 135308249136.137765996405532 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                         ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)       ; <None>        ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                     ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; --          ; Top            ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
 
 
 +--------------------------------------------------------------------------------------------------------------------------+
@@ -87,8 +89,8 @@ applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:10     ; 1.0                     ; 342 MB              ; 00:00:09                           ;
-; Total                ; 00:00:10     ; --                      ; --                  ; 00:00:09                           ;
+; Analysis & Synthesis ; 00:00:13     ; 1.0                     ; 354 MB              ; 00:00:05                           ;
+; Total                ; 00:00:13     ; --                      ; --                  ; 00:00:05                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

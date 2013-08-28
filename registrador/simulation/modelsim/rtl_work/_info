@@ -1,0 +1,40 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\registrador\simulation\modelsim
+Eregistrador
+Z1 w1377144982
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\registrador\simulation\modelsim
+Z5 8C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador.vhd
+Z6 FC:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador.vhd
+l0
+L4
+VQ2ijzPekObflfWj2B]RjP3
+!s100 <^FK=2WLog7[RYB`iOh6=0
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1377644787.752000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador.vhd|
+Z10 !s107 C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Areg8b
+R2
+R3
+DEx4 work 11 registrador 0 22 Q2ijzPekObflfWj2B]RjP3
+l13
+L11
+V9?D6klc^D7Pjj`6dan<9<3
+!s100 3f2z3AfI>6C1?GCQgQYQi0
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
