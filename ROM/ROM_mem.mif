@@ -1,0 +1,19 @@
+-- Arquivo de descricao dos dados da memoria ROM
+DEPTH = 256; % Profundidade (quantidade de palavras) e tamanho (numero de bits de cada palavra) sao necessarios %
+WIDTH = 8; % numero de bits de cada palavra%
+ADDRESS_RADIX = HEX; % Escolhe qual vai ser o radix para a escolha do endereco %
+DATA_RADIX = HEX; % Escolhe qual vai ser o radix para a escolha do dado %
+% Caso nao especifique nada Radix = HEX %
+-- Specify values for addresses, which can be single address or range
+CONTENT
+	BEGIN
+	[0..F] : 10; % primeiros 16 valores sao 0 %
+	10 : 33; % Um unico endereco %
+	11 : 5C; % Addr[11] = 5C %
+	12 : 99;
+	13 : A1; 
+	14 : B2;
+	15 : C3;
+	16 : D4; 
+	[17..FF] : 00;
+END ; % eh preciso terminar o arquivo com este end %

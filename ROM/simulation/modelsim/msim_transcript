@@ -1,0 +1,452 @@
+# Reading C:/altera/12.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do ROM_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {ROM.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity ROM
+# -- Compiling architecture structure of ROM
+# 
+cd C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM
+# reading C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(27): Signal "address_a" is type ieee.NUMERIC_STD.UNSIGNED; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: ROM_simu.vhd(39): near "address_a": expecting ';'
+# ** Error: ROM_simu.vhd(41): near "address_a": expecting ';'
+# ** Error: ROM_simu.vhd(43): near "END": expecting ';'
+# ** Error: ROM_simu.vhd(47): Illegal sequential statement.
+# ** Error: ROM_simu.vhd(53): near "estimulos": expecting PROCESS
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(27): Signal "address_a" is type ieee.NUMERIC_STD.UNSIGNED; expecting type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: ROM_simu.vhd(43): (vcom-1136) Unknown identifier "TO_STD_LOGIC_VECTOR".
+# 
+# ** Error: ROM_simu.vhd(48): Symbol "sinais" has already been declared in this region.
+# ** Error: ROM_simu.vhd(55): VHDL Compiler exiting
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+#  Trace back: can't use empty string as operand of "+"
+#     while executing
+# "expr {[lindex [$win bbox cBegin] 1] + [winfo rooty $win]}"
+#     (procedure "Transcript::CmdCompletion" line 43)
+#     invoked from within
+# "Transcript::CmdCompletion $w [$w get cBegin insert]"
+#     (procedure "Transcript::KeyPress" line 24)
+#     invoked from within
+# "Transcript::KeyPress .main_pane.transcript.interior.cs.body.t {} Alt_L "
+#     (command bound to event) 
+#    <2: ::tkerror {can't use empty string as operand of "+"} 
+#    <1: ::bgerror {can't use empty string as operand of "+"} 
+ va
+# ambiguous command name "va": validTime variable
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(43): (vcom-1136) Unknown identifier "TO_STD_LOGIC_VECTOR".
+# 
+# ** Error: ROM_simu.vhd(55): VHDL Compiler exiting
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(43): Illegal type conversion from Integer to ieee.NUMERIC_STD.UNSIGNED (numeric to array).
+# ** Error: ROM_simu.vhd(43): Type conversion (to ieee.NUMERIC_STD.UNSIGNED) conflicts with expected type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: ROM_simu.vhd(55): VHDL Compiler exiting
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(43): No feasible entries for subprogram "TO_UNSIGNED".
+# ** Error: ROM_simu.vhd(55): VHDL Compiler exiting
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# vsim -t ns work.ROM_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_simu(estimulos)
+# Loading work.rom(syn)
+# ** Failure: (vsim-3817) Port "address" of entity "rom" is not in the component being instantiated.
+#    Time: 0 ns  Iteration: 0  Instance: /rom_simu/ROM1 File: ROM.vhd Line: 45
+# ** Error: (vsim-3732) ROM_simu.vhd(31): No default binding for component instance 'ROM1'.
+# 
+#    The following component ports are not on the entity:
+#           q_a
+#           clocken0
+#           clock0
+#           address_a
+# 
+#         Region: /rom_simu/ROM1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Fatal error at ROM.vhd line 45
+#  while elaborating region: /rom_simu/ROM1
+# Fatal error in file ROM_simu.vhd
+#  while elaborating region: /rom_simu
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do PAUSED at line 7
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(43): Illegal type conversion from Integer to ieee.std_logic_1164.STD_LOGIC_VECTOR (numeric to array).
+# ** Error: ROM_simu.vhd(55): VHDL Compiler exiting
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(43): Integer literal 13 is not of type ieee.std_logic_1164.STD_LOGIC_VECTOR.
+# ** Error: ROM_simu.vhd(55): VHDL Compiler exiting
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(43): Prefix of slice name cannot be type conversion (STD_LOGIC_VECTOR) expression.
+# ** Error: ROM_simu.vhd(43): Illegal type conversion from Integer to ieee.std_logic_1164.STD_LOGIC_VECTOR (numeric to array).
+# ** Error: ROM_simu.vhd(55): VHDL Compiler exiting
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# vsim -t ns work.ROM_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_simu(estimulos)
+# Loading work.rom(syn)
+# ** Failure: (vsim-3817) Port "address" of entity "rom" is not in the component being instantiated.
+#    Time: 0 ns  Iteration: 0  Instance: /rom_simu/ROM1 File: ROM.vhd Line: 45
+# ** Error: (vsim-3732) ROM_simu.vhd(31): No default binding for component instance 'ROM1'.
+# 
+#    The following component ports are not on the entity:
+#           q_a
+#           clocken0
+#           clock0
+#           address_a
+# 
+#         Region: /rom_simu/ROM1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Fatal error at ROM.vhd line 45
+#  while elaborating region: /rom_simu/ROM1
+# Fatal error in file ROM_simu.vhd
+#  while elaborating region: /rom_simu
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do PAUSED at line 7
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# vsim -t ns work.ROM_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_simu(estimulos)
+# Loading work.rom(syn)
+# ** Error: (vsim-3732) ROM_simu.vhd(31): No default binding for component instance 'ROM1'.
+# 
+#    The following component ports are not on the entity:
+#           q_a
+#           clocken0
+#           clock0
+# 
+#         Region: /rom_simu/ROM1
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# Error loading design
+# Error: Error loading design 
+#        Pausing macro execution 
+# MACRO C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do PAUSED at line 7
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(28): (vcom-1136) Unknown identifier "clock".
+# 
+# ** Error: ROM_simu.vhd(29): (vcom-1136) Unknown identifier "clocken".
+# 
+# ** Error: ROM_simu.vhd(30): (vcom-1136) Unknown identifier "q".
+# 
+# ** Error: ROM_simu.vhd(28): (vcom-1484) Unknown formal identifier "clock0".
+# 
+# ** Error: ROM_simu.vhd(29): (vcom-1484) Unknown formal identifier "clocken0".
+# 
+# ** Error: ROM_simu.vhd(30): (vcom-1484) Unknown formal identifier "q_a".
+# 
+# ** Error: ROM_simu.vhd(55): VHDL Compiler exiting
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# ** Error: ROM_simu.vhd(29): (vcom-1484) Unknown formal identifier "clkem".
+# 
+# ** Error: ROM_simu.vhd(55): VHDL Compiler exiting
+# ** Error: C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 6
+# C:/altera/12.0sp1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom ROM.vhd ROM_simu.vhd"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# vsim -t ns work.ROM_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_simu(estimulos)
+# Loading work.rom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# .main_pane.wave.interior.cs.body.pw.wf
+# ** Error: (vish-4014) No objects found matching '/address_a'.
+# Error in macro C:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM\ROM_simu.do line 9
+# (vish-4014) No objects found matching '/address_a'.
+#     while executing
+# "add wave -radix binary /address_a"
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# vsim -t ns work.ROM_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_simu(estimulos)
+# Loading work.rom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# .main_pane.wave.interior.cs.body.pw.wf
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ROM_simu
+# -- Compiling architecture estimulos of ROM_simu
+# vsim -t ns work.ROM_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.rom_simu(estimulos)
+# Loading work.rom(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# .main_pane.wave.interior.cs.body.pw.wf
