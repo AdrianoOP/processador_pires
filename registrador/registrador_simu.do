@@ -11,4 +11,5 @@ add wave -radix binary /d_in
 add wave -radix binary /d_out
 add wave -radix binary /r_en
 add wave -radix binary /r_ctrl
+add wave -radix binary /reset
 run 500 ns

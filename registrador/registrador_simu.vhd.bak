@@ -24,7 +24,7 @@ BEGIN
 
 	reg8 : registrador
 	PORT MAP(
-		d_in=>d_in, d_out=>d_out, clock=>clock, r_en=>r_en, r_ctrl=>r_ctrl, reset=>reset
+		d_in=>d_in, d_out=>d_out, clock=>clock, r_en=>r_en, r_ctrl=>r_ctrl
 	);
 	
 	-- Processo que gera o sinal de clock

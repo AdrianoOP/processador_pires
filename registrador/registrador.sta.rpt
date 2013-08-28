@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for registrador
-Tue Aug 27 21:11:09 2013
+Wed Aug 28 20:11:29 2013
 Quartus II 32-bit Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition
 
 
@@ -193,16 +193,16 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; d_in[*]   ; clock      ; 4.658  ; 4.658  ; Rise       ; clock           ;
-;  d_in[0]  ; clock      ; -0.876 ; -0.876 ; Rise       ; clock           ;
-;  d_in[1]  ; clock      ; 4.658  ; 4.658  ; Rise       ; clock           ;
-;  d_in[2]  ; clock      ; 3.144  ; 3.144  ; Rise       ; clock           ;
-;  d_in[3]  ; clock      ; 3.180  ; 3.180  ; Rise       ; clock           ;
-;  d_in[4]  ; clock      ; 4.620  ; 4.620  ; Rise       ; clock           ;
-;  d_in[5]  ; clock      ; 3.386  ; 3.386  ; Rise       ; clock           ;
-;  d_in[6]  ; clock      ; 4.443  ; 4.443  ; Rise       ; clock           ;
-;  d_in[7]  ; clock      ; 3.647  ; 3.647  ; Rise       ; clock           ;
-; r_en      ; clock      ; 3.803  ; 3.803  ; Rise       ; clock           ;
+; d_in[*]   ; clock      ; 4.460  ; 4.460  ; Rise       ; clock           ;
+;  d_in[0]  ; clock      ; -0.143 ; -0.143 ; Rise       ; clock           ;
+;  d_in[1]  ; clock      ; 4.460  ; 4.460  ; Rise       ; clock           ;
+;  d_in[2]  ; clock      ; 3.842  ; 3.842  ; Rise       ; clock           ;
+;  d_in[3]  ; clock      ; 3.392  ; 3.392  ; Rise       ; clock           ;
+;  d_in[4]  ; clock      ; 3.389  ; 3.389  ; Rise       ; clock           ;
+;  d_in[5]  ; clock      ; 3.891  ; 3.891  ; Rise       ; clock           ;
+;  d_in[6]  ; clock      ; 4.158  ; 4.158  ; Rise       ; clock           ;
+;  d_in[7]  ; clock      ; 3.863  ; 3.863  ; Rise       ; clock           ;
+; r_en      ; clock      ; 3.547  ; 3.547  ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -211,16 +211,16 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; d_in[*]   ; clock      ; 1.106  ; 1.106  ; Rise       ; clock           ;
-;  d_in[0]  ; clock      ; 1.106  ; 1.106  ; Rise       ; clock           ;
-;  d_in[1]  ; clock      ; -4.428 ; -4.428 ; Rise       ; clock           ;
-;  d_in[2]  ; clock      ; -2.914 ; -2.914 ; Rise       ; clock           ;
-;  d_in[3]  ; clock      ; -2.950 ; -2.950 ; Rise       ; clock           ;
-;  d_in[4]  ; clock      ; -4.390 ; -4.390 ; Rise       ; clock           ;
-;  d_in[5]  ; clock      ; -3.156 ; -3.156 ; Rise       ; clock           ;
-;  d_in[6]  ; clock      ; -4.213 ; -4.213 ; Rise       ; clock           ;
-;  d_in[7]  ; clock      ; -3.417 ; -3.417 ; Rise       ; clock           ;
-; r_en      ; clock      ; -3.573 ; -3.573 ; Rise       ; clock           ;
+; d_in[*]   ; clock      ; 0.373  ; 0.373  ; Rise       ; clock           ;
+;  d_in[0]  ; clock      ; 0.373  ; 0.373  ; Rise       ; clock           ;
+;  d_in[1]  ; clock      ; -4.230 ; -4.230 ; Rise       ; clock           ;
+;  d_in[2]  ; clock      ; -3.612 ; -3.612 ; Rise       ; clock           ;
+;  d_in[3]  ; clock      ; -3.162 ; -3.162 ; Rise       ; clock           ;
+;  d_in[4]  ; clock      ; -3.159 ; -3.159 ; Rise       ; clock           ;
+;  d_in[5]  ; clock      ; -3.661 ; -3.661 ; Rise       ; clock           ;
+;  d_in[6]  ; clock      ; -3.928 ; -3.928 ; Rise       ; clock           ;
+;  d_in[7]  ; clock      ; -3.633 ; -3.633 ; Rise       ; clock           ;
+; r_en      ; clock      ; -3.317 ; -3.317 ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -229,15 +229,15 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; d_out[*]  ; clock      ; 9.384 ; 9.384 ; Rise       ; clock           ;
-;  d_out[0] ; clock      ; 6.572 ; 6.572 ; Rise       ; clock           ;
-;  d_out[1] ; clock      ; 6.629 ; 6.629 ; Rise       ; clock           ;
-;  d_out[2] ; clock      ; 6.582 ; 6.582 ; Rise       ; clock           ;
-;  d_out[3] ; clock      ; 9.384 ; 9.384 ; Rise       ; clock           ;
-;  d_out[4] ; clock      ; 6.612 ; 6.612 ; Rise       ; clock           ;
-;  d_out[5] ; clock      ; 8.888 ; 8.888 ; Rise       ; clock           ;
-;  d_out[6] ; clock      ; 6.386 ; 6.386 ; Rise       ; clock           ;
-;  d_out[7] ; clock      ; 7.062 ; 7.062 ; Rise       ; clock           ;
+; d_out[*]  ; clock      ; 6.807 ; 6.807 ; Rise       ; clock           ;
+;  d_out[0] ; clock      ; 6.577 ; 6.577 ; Rise       ; clock           ;
+;  d_out[1] ; clock      ; 6.335 ; 6.335 ; Rise       ; clock           ;
+;  d_out[2] ; clock      ; 6.563 ; 6.563 ; Rise       ; clock           ;
+;  d_out[3] ; clock      ; 6.596 ; 6.596 ; Rise       ; clock           ;
+;  d_out[4] ; clock      ; 6.342 ; 6.342 ; Rise       ; clock           ;
+;  d_out[5] ; clock      ; 6.807 ; 6.807 ; Rise       ; clock           ;
+;  d_out[6] ; clock      ; 6.574 ; 6.574 ; Rise       ; clock           ;
+;  d_out[7] ; clock      ; 6.578 ; 6.578 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -246,15 +246,15 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; d_out[*]  ; clock      ; 6.386 ; 6.386 ; Rise       ; clock           ;
-;  d_out[0] ; clock      ; 6.572 ; 6.572 ; Rise       ; clock           ;
-;  d_out[1] ; clock      ; 6.629 ; 6.629 ; Rise       ; clock           ;
-;  d_out[2] ; clock      ; 6.582 ; 6.582 ; Rise       ; clock           ;
-;  d_out[3] ; clock      ; 9.384 ; 9.384 ; Rise       ; clock           ;
-;  d_out[4] ; clock      ; 6.612 ; 6.612 ; Rise       ; clock           ;
-;  d_out[5] ; clock      ; 8.888 ; 8.888 ; Rise       ; clock           ;
-;  d_out[6] ; clock      ; 6.386 ; 6.386 ; Rise       ; clock           ;
-;  d_out[7] ; clock      ; 7.062 ; 7.062 ; Rise       ; clock           ;
+; d_out[*]  ; clock      ; 6.335 ; 6.335 ; Rise       ; clock           ;
+;  d_out[0] ; clock      ; 6.577 ; 6.577 ; Rise       ; clock           ;
+;  d_out[1] ; clock      ; 6.335 ; 6.335 ; Rise       ; clock           ;
+;  d_out[2] ; clock      ; 6.563 ; 6.563 ; Rise       ; clock           ;
+;  d_out[3] ; clock      ; 6.596 ; 6.596 ; Rise       ; clock           ;
+;  d_out[4] ; clock      ; 6.342 ; 6.342 ; Rise       ; clock           ;
+;  d_out[5] ; clock      ; 6.807 ; 6.807 ; Rise       ; clock           ;
+;  d_out[6] ; clock      ; 6.574 ; 6.574 ; Rise       ; clock           ;
+;  d_out[7] ; clock      ; 6.578 ; 6.578 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -263,14 +263,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; r_ctrl     ; d_out[0]    ; 4.812 ; 4.812 ; 4.812 ; 4.812 ;
-; r_ctrl     ; d_out[1]    ; 4.802 ; 4.802 ; 4.802 ; 4.802 ;
-; r_ctrl     ; d_out[2]    ; 4.822 ; 4.822 ; 4.822 ; 4.822 ;
-; r_ctrl     ; d_out[3]    ; 5.830 ; 5.830 ; 5.830 ; 5.830 ;
-; r_ctrl     ; d_out[4]    ; 4.853 ; 4.853 ; 4.853 ; 4.853 ;
-; r_ctrl     ; d_out[5]    ; 5.820 ; 5.820 ; 5.820 ; 5.820 ;
-; r_ctrl     ; d_out[6]    ; 4.840 ; 4.840 ; 4.840 ; 4.840 ;
-; r_ctrl     ; d_out[7]    ; 5.017 ; 5.017 ; 5.017 ; 5.017 ;
+; r_ctrl     ; d_out[0]    ; 5.008 ; 5.008 ; 5.008 ; 5.008 ;
+; r_ctrl     ; d_out[1]    ; 5.226 ; 5.226 ; 5.226 ; 5.226 ;
+; r_ctrl     ; d_out[2]    ; 4.747 ; 4.747 ; 4.747 ; 4.747 ;
+; r_ctrl     ; d_out[3]    ; 5.020 ; 5.020 ; 5.020 ; 5.020 ;
+; r_ctrl     ; d_out[4]    ; 5.236 ; 5.236 ; 5.236 ; 5.236 ;
+; r_ctrl     ; d_out[5]    ; 4.767 ; 4.767 ; 4.767 ; 4.767 ;
+; r_ctrl     ; d_out[6]    ; 5.000 ; 5.000 ; 5.000 ; 5.000 ;
+; r_ctrl     ; d_out[7]    ; 5.008 ; 5.008 ; 5.008 ; 5.008 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -279,14 +279,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; r_ctrl     ; d_out[0]    ; 4.812 ; 4.812 ; 4.812 ; 4.812 ;
-; r_ctrl     ; d_out[1]    ; 4.802 ; 4.802 ; 4.802 ; 4.802 ;
-; r_ctrl     ; d_out[2]    ; 4.822 ; 4.822 ; 4.822 ; 4.822 ;
-; r_ctrl     ; d_out[3]    ; 5.830 ; 5.830 ; 5.830 ; 5.830 ;
-; r_ctrl     ; d_out[4]    ; 4.853 ; 4.853 ; 4.853 ; 4.853 ;
-; r_ctrl     ; d_out[5]    ; 5.820 ; 5.820 ; 5.820 ; 5.820 ;
-; r_ctrl     ; d_out[6]    ; 4.840 ; 4.840 ; 4.840 ; 4.840 ;
-; r_ctrl     ; d_out[7]    ; 5.017 ; 5.017 ; 5.017 ; 5.017 ;
+; r_ctrl     ; d_out[0]    ; 5.008 ; 5.008 ; 5.008 ; 5.008 ;
+; r_ctrl     ; d_out[1]    ; 5.226 ; 5.226 ; 5.226 ; 5.226 ;
+; r_ctrl     ; d_out[2]    ; 4.747 ; 4.747 ; 4.747 ; 4.747 ;
+; r_ctrl     ; d_out[3]    ; 5.020 ; 5.020 ; 5.020 ; 5.020 ;
+; r_ctrl     ; d_out[4]    ; 5.236 ; 5.236 ; 5.236 ; 5.236 ;
+; r_ctrl     ; d_out[5]    ; 4.767 ; 4.767 ; 4.767 ; 4.767 ;
+; r_ctrl     ; d_out[6]    ; 5.000 ; 5.000 ; 5.000 ; 5.000 ;
+; r_ctrl     ; d_out[7]    ; 5.008 ; 5.008 ; 5.008 ; 5.008 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -375,16 +375,16 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; d_in[*]   ; clock      ; 2.534  ; 2.534  ; Rise       ; clock           ;
-;  d_in[0]  ; clock      ; -0.755 ; -0.755 ; Rise       ; clock           ;
-;  d_in[1]  ; clock      ; 2.534  ; 2.534  ; Rise       ; clock           ;
-;  d_in[2]  ; clock      ; 1.697  ; 1.697  ; Rise       ; clock           ;
-;  d_in[3]  ; clock      ; 1.723  ; 1.723  ; Rise       ; clock           ;
-;  d_in[4]  ; clock      ; 2.521  ; 2.521  ; Rise       ; clock           ;
-;  d_in[5]  ; clock      ; 1.805  ; 1.805  ; Rise       ; clock           ;
-;  d_in[6]  ; clock      ; 2.413  ; 2.413  ; Rise       ; clock           ;
-;  d_in[7]  ; clock      ; 1.932  ; 1.932  ; Rise       ; clock           ;
-; r_en      ; clock      ; 2.094  ; 2.094  ; Rise       ; clock           ;
+; d_in[*]   ; clock      ; 2.412  ; 2.412  ; Rise       ; clock           ;
+;  d_in[0]  ; clock      ; -0.389 ; -0.389 ; Rise       ; clock           ;
+;  d_in[1]  ; clock      ; 2.412  ; 2.412  ; Rise       ; clock           ;
+;  d_in[2]  ; clock      ; 2.078  ; 2.078  ; Rise       ; clock           ;
+;  d_in[3]  ; clock      ; 1.817  ; 1.817  ; Rise       ; clock           ;
+;  d_in[4]  ; clock      ; 1.813  ; 1.813  ; Rise       ; clock           ;
+;  d_in[5]  ; clock      ; 2.118  ; 2.118  ; Rise       ; clock           ;
+;  d_in[6]  ; clock      ; 2.276  ; 2.276  ; Rise       ; clock           ;
+;  d_in[7]  ; clock      ; 2.112  ; 2.112  ; Rise       ; clock           ;
+; r_en      ; clock      ; 1.959  ; 1.959  ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -393,16 +393,16 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; d_in[*]   ; clock      ; 0.875  ; 0.875  ; Rise       ; clock           ;
-;  d_in[0]  ; clock      ; 0.875  ; 0.875  ; Rise       ; clock           ;
-;  d_in[1]  ; clock      ; -2.414 ; -2.414 ; Rise       ; clock           ;
-;  d_in[2]  ; clock      ; -1.577 ; -1.577 ; Rise       ; clock           ;
-;  d_in[3]  ; clock      ; -1.603 ; -1.603 ; Rise       ; clock           ;
-;  d_in[4]  ; clock      ; -2.401 ; -2.401 ; Rise       ; clock           ;
-;  d_in[5]  ; clock      ; -1.685 ; -1.685 ; Rise       ; clock           ;
-;  d_in[6]  ; clock      ; -2.293 ; -2.293 ; Rise       ; clock           ;
-;  d_in[7]  ; clock      ; -1.812 ; -1.812 ; Rise       ; clock           ;
-; r_en      ; clock      ; -1.974 ; -1.974 ; Rise       ; clock           ;
+; d_in[*]   ; clock      ; 0.509  ; 0.509  ; Rise       ; clock           ;
+;  d_in[0]  ; clock      ; 0.509  ; 0.509  ; Rise       ; clock           ;
+;  d_in[1]  ; clock      ; -2.292 ; -2.292 ; Rise       ; clock           ;
+;  d_in[2]  ; clock      ; -1.958 ; -1.958 ; Rise       ; clock           ;
+;  d_in[3]  ; clock      ; -1.697 ; -1.697 ; Rise       ; clock           ;
+;  d_in[4]  ; clock      ; -1.693 ; -1.693 ; Rise       ; clock           ;
+;  d_in[5]  ; clock      ; -1.998 ; -1.998 ; Rise       ; clock           ;
+;  d_in[6]  ; clock      ; -2.156 ; -2.156 ; Rise       ; clock           ;
+;  d_in[7]  ; clock      ; -1.992 ; -1.992 ; Rise       ; clock           ;
+; r_en      ; clock      ; -1.839 ; -1.839 ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -411,15 +411,15 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; d_out[*]  ; clock      ; 5.229 ; 5.229 ; Rise       ; clock           ;
-;  d_out[0] ; clock      ; 3.728 ; 3.728 ; Rise       ; clock           ;
-;  d_out[1] ; clock      ; 3.778 ; 3.778 ; Rise       ; clock           ;
-;  d_out[2] ; clock      ; 3.738 ; 3.738 ; Rise       ; clock           ;
-;  d_out[3] ; clock      ; 5.229 ; 5.229 ; Rise       ; clock           ;
-;  d_out[4] ; clock      ; 3.767 ; 3.767 ; Rise       ; clock           ;
-;  d_out[5] ; clock      ; 4.841 ; 4.841 ; Rise       ; clock           ;
-;  d_out[6] ; clock      ; 3.660 ; 3.660 ; Rise       ; clock           ;
-;  d_out[7] ; clock      ; 3.960 ; 3.960 ; Rise       ; clock           ;
+; d_out[*]  ; clock      ; 3.844 ; 3.844 ; Rise       ; clock           ;
+;  d_out[0] ; clock      ; 3.742 ; 3.742 ; Rise       ; clock           ;
+;  d_out[1] ; clock      ; 3.621 ; 3.621 ; Rise       ; clock           ;
+;  d_out[2] ; clock      ; 3.725 ; 3.725 ; Rise       ; clock           ;
+;  d_out[3] ; clock      ; 3.758 ; 3.758 ; Rise       ; clock           ;
+;  d_out[4] ; clock      ; 3.630 ; 3.630 ; Rise       ; clock           ;
+;  d_out[5] ; clock      ; 3.844 ; 3.844 ; Rise       ; clock           ;
+;  d_out[6] ; clock      ; 3.735 ; 3.735 ; Rise       ; clock           ;
+;  d_out[7] ; clock      ; 3.742 ; 3.742 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -428,15 +428,15 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; d_out[*]  ; clock      ; 3.660 ; 3.660 ; Rise       ; clock           ;
-;  d_out[0] ; clock      ; 3.728 ; 3.728 ; Rise       ; clock           ;
-;  d_out[1] ; clock      ; 3.778 ; 3.778 ; Rise       ; clock           ;
-;  d_out[2] ; clock      ; 3.738 ; 3.738 ; Rise       ; clock           ;
-;  d_out[3] ; clock      ; 5.229 ; 5.229 ; Rise       ; clock           ;
-;  d_out[4] ; clock      ; 3.767 ; 3.767 ; Rise       ; clock           ;
-;  d_out[5] ; clock      ; 4.841 ; 4.841 ; Rise       ; clock           ;
-;  d_out[6] ; clock      ; 3.660 ; 3.660 ; Rise       ; clock           ;
-;  d_out[7] ; clock      ; 3.960 ; 3.960 ; Rise       ; clock           ;
+; d_out[*]  ; clock      ; 3.621 ; 3.621 ; Rise       ; clock           ;
+;  d_out[0] ; clock      ; 3.742 ; 3.742 ; Rise       ; clock           ;
+;  d_out[1] ; clock      ; 3.621 ; 3.621 ; Rise       ; clock           ;
+;  d_out[2] ; clock      ; 3.725 ; 3.725 ; Rise       ; clock           ;
+;  d_out[3] ; clock      ; 3.758 ; 3.758 ; Rise       ; clock           ;
+;  d_out[4] ; clock      ; 3.630 ; 3.630 ; Rise       ; clock           ;
+;  d_out[5] ; clock      ; 3.844 ; 3.844 ; Rise       ; clock           ;
+;  d_out[6] ; clock      ; 3.735 ; 3.735 ; Rise       ; clock           ;
+;  d_out[7] ; clock      ; 3.742 ; 3.742 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -445,14 +445,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; r_ctrl     ; d_out[0]    ; 2.552 ; 2.552 ; 2.552 ; 2.552 ;
-; r_ctrl     ; d_out[1]    ; 2.562 ; 2.562 ; 2.562 ; 2.562 ;
-; r_ctrl     ; d_out[2]    ; 2.562 ; 2.562 ; 2.562 ; 2.562 ;
-; r_ctrl     ; d_out[3]    ; 3.192 ; 3.192 ; 3.192 ; 3.192 ;
-; r_ctrl     ; d_out[4]    ; 2.592 ; 2.592 ; 2.592 ; 2.592 ;
-; r_ctrl     ; d_out[5]    ; 3.182 ; 3.182 ; 3.182 ; 3.182 ;
-; r_ctrl     ; d_out[6]    ; 2.581 ; 2.581 ; 2.581 ; 2.581 ;
-; r_ctrl     ; d_out[7]    ; 2.680 ; 2.680 ; 2.680 ; 2.680 ;
+; r_ctrl     ; d_out[0]    ; 2.647 ; 2.647 ; 2.647 ; 2.647 ;
+; r_ctrl     ; d_out[1]    ; 2.734 ; 2.734 ; 2.734 ; 2.734 ;
+; r_ctrl     ; d_out[2]    ; 2.518 ; 2.518 ; 2.518 ; 2.518 ;
+; r_ctrl     ; d_out[3]    ; 2.658 ; 2.658 ; 2.658 ; 2.658 ;
+; r_ctrl     ; d_out[4]    ; 2.744 ; 2.744 ; 2.744 ; 2.744 ;
+; r_ctrl     ; d_out[5]    ; 2.538 ; 2.538 ; 2.538 ; 2.538 ;
+; r_ctrl     ; d_out[6]    ; 2.638 ; 2.638 ; 2.638 ; 2.638 ;
+; r_ctrl     ; d_out[7]    ; 2.647 ; 2.647 ; 2.647 ; 2.647 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -461,14 +461,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; r_ctrl     ; d_out[0]    ; 2.552 ; 2.552 ; 2.552 ; 2.552 ;
-; r_ctrl     ; d_out[1]    ; 2.562 ; 2.562 ; 2.562 ; 2.562 ;
-; r_ctrl     ; d_out[2]    ; 2.562 ; 2.562 ; 2.562 ; 2.562 ;
-; r_ctrl     ; d_out[3]    ; 3.192 ; 3.192 ; 3.192 ; 3.192 ;
-; r_ctrl     ; d_out[4]    ; 2.592 ; 2.592 ; 2.592 ; 2.592 ;
-; r_ctrl     ; d_out[5]    ; 3.182 ; 3.182 ; 3.182 ; 3.182 ;
-; r_ctrl     ; d_out[6]    ; 2.581 ; 2.581 ; 2.581 ; 2.581 ;
-; r_ctrl     ; d_out[7]    ; 2.680 ; 2.680 ; 2.680 ; 2.680 ;
+; r_ctrl     ; d_out[0]    ; 2.647 ; 2.647 ; 2.647 ; 2.647 ;
+; r_ctrl     ; d_out[1]    ; 2.734 ; 2.734 ; 2.734 ; 2.734 ;
+; r_ctrl     ; d_out[2]    ; 2.518 ; 2.518 ; 2.518 ; 2.518 ;
+; r_ctrl     ; d_out[3]    ; 2.658 ; 2.658 ; 2.658 ; 2.658 ;
+; r_ctrl     ; d_out[4]    ; 2.744 ; 2.744 ; 2.744 ; 2.744 ;
+; r_ctrl     ; d_out[5]    ; 2.538 ; 2.538 ; 2.538 ; 2.538 ;
+; r_ctrl     ; d_out[6]    ; 2.638 ; 2.638 ; 2.638 ; 2.638 ;
+; r_ctrl     ; d_out[7]    ; 2.647 ; 2.647 ; 2.647 ; 2.647 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -489,16 +489,16 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; d_in[*]   ; clock      ; 4.658  ; 4.658  ; Rise       ; clock           ;
-;  d_in[0]  ; clock      ; -0.755 ; -0.755 ; Rise       ; clock           ;
-;  d_in[1]  ; clock      ; 4.658  ; 4.658  ; Rise       ; clock           ;
-;  d_in[2]  ; clock      ; 3.144  ; 3.144  ; Rise       ; clock           ;
-;  d_in[3]  ; clock      ; 3.180  ; 3.180  ; Rise       ; clock           ;
-;  d_in[4]  ; clock      ; 4.620  ; 4.620  ; Rise       ; clock           ;
-;  d_in[5]  ; clock      ; 3.386  ; 3.386  ; Rise       ; clock           ;
-;  d_in[6]  ; clock      ; 4.443  ; 4.443  ; Rise       ; clock           ;
-;  d_in[7]  ; clock      ; 3.647  ; 3.647  ; Rise       ; clock           ;
-; r_en      ; clock      ; 3.803  ; 3.803  ; Rise       ; clock           ;
+; d_in[*]   ; clock      ; 4.460  ; 4.460  ; Rise       ; clock           ;
+;  d_in[0]  ; clock      ; -0.143 ; -0.143 ; Rise       ; clock           ;
+;  d_in[1]  ; clock      ; 4.460  ; 4.460  ; Rise       ; clock           ;
+;  d_in[2]  ; clock      ; 3.842  ; 3.842  ; Rise       ; clock           ;
+;  d_in[3]  ; clock      ; 3.392  ; 3.392  ; Rise       ; clock           ;
+;  d_in[4]  ; clock      ; 3.389  ; 3.389  ; Rise       ; clock           ;
+;  d_in[5]  ; clock      ; 3.891  ; 3.891  ; Rise       ; clock           ;
+;  d_in[6]  ; clock      ; 4.158  ; 4.158  ; Rise       ; clock           ;
+;  d_in[7]  ; clock      ; 3.863  ; 3.863  ; Rise       ; clock           ;
+; r_en      ; clock      ; 3.547  ; 3.547  ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -507,16 +507,16 @@ No paths to report.
 +-----------+------------+--------+--------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise   ; Fall   ; Clock Edge ; Clock Reference ;
 +-----------+------------+--------+--------+------------+-----------------+
-; d_in[*]   ; clock      ; 1.106  ; 1.106  ; Rise       ; clock           ;
-;  d_in[0]  ; clock      ; 1.106  ; 1.106  ; Rise       ; clock           ;
-;  d_in[1]  ; clock      ; -2.414 ; -2.414 ; Rise       ; clock           ;
-;  d_in[2]  ; clock      ; -1.577 ; -1.577 ; Rise       ; clock           ;
-;  d_in[3]  ; clock      ; -1.603 ; -1.603 ; Rise       ; clock           ;
-;  d_in[4]  ; clock      ; -2.401 ; -2.401 ; Rise       ; clock           ;
-;  d_in[5]  ; clock      ; -1.685 ; -1.685 ; Rise       ; clock           ;
-;  d_in[6]  ; clock      ; -2.293 ; -2.293 ; Rise       ; clock           ;
-;  d_in[7]  ; clock      ; -1.812 ; -1.812 ; Rise       ; clock           ;
-; r_en      ; clock      ; -1.974 ; -1.974 ; Rise       ; clock           ;
+; d_in[*]   ; clock      ; 0.509  ; 0.509  ; Rise       ; clock           ;
+;  d_in[0]  ; clock      ; 0.509  ; 0.509  ; Rise       ; clock           ;
+;  d_in[1]  ; clock      ; -2.292 ; -2.292 ; Rise       ; clock           ;
+;  d_in[2]  ; clock      ; -1.958 ; -1.958 ; Rise       ; clock           ;
+;  d_in[3]  ; clock      ; -1.697 ; -1.697 ; Rise       ; clock           ;
+;  d_in[4]  ; clock      ; -1.693 ; -1.693 ; Rise       ; clock           ;
+;  d_in[5]  ; clock      ; -1.998 ; -1.998 ; Rise       ; clock           ;
+;  d_in[6]  ; clock      ; -2.156 ; -2.156 ; Rise       ; clock           ;
+;  d_in[7]  ; clock      ; -1.992 ; -1.992 ; Rise       ; clock           ;
+; r_en      ; clock      ; -1.839 ; -1.839 ; Rise       ; clock           ;
 +-----------+------------+--------+--------+------------+-----------------+
 
 
@@ -525,15 +525,15 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; d_out[*]  ; clock      ; 9.384 ; 9.384 ; Rise       ; clock           ;
-;  d_out[0] ; clock      ; 6.572 ; 6.572 ; Rise       ; clock           ;
-;  d_out[1] ; clock      ; 6.629 ; 6.629 ; Rise       ; clock           ;
-;  d_out[2] ; clock      ; 6.582 ; 6.582 ; Rise       ; clock           ;
-;  d_out[3] ; clock      ; 9.384 ; 9.384 ; Rise       ; clock           ;
-;  d_out[4] ; clock      ; 6.612 ; 6.612 ; Rise       ; clock           ;
-;  d_out[5] ; clock      ; 8.888 ; 8.888 ; Rise       ; clock           ;
-;  d_out[6] ; clock      ; 6.386 ; 6.386 ; Rise       ; clock           ;
-;  d_out[7] ; clock      ; 7.062 ; 7.062 ; Rise       ; clock           ;
+; d_out[*]  ; clock      ; 6.807 ; 6.807 ; Rise       ; clock           ;
+;  d_out[0] ; clock      ; 6.577 ; 6.577 ; Rise       ; clock           ;
+;  d_out[1] ; clock      ; 6.335 ; 6.335 ; Rise       ; clock           ;
+;  d_out[2] ; clock      ; 6.563 ; 6.563 ; Rise       ; clock           ;
+;  d_out[3] ; clock      ; 6.596 ; 6.596 ; Rise       ; clock           ;
+;  d_out[4] ; clock      ; 6.342 ; 6.342 ; Rise       ; clock           ;
+;  d_out[5] ; clock      ; 6.807 ; 6.807 ; Rise       ; clock           ;
+;  d_out[6] ; clock      ; 6.574 ; 6.574 ; Rise       ; clock           ;
+;  d_out[7] ; clock      ; 6.578 ; 6.578 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -542,15 +542,15 @@ No paths to report.
 +-----------+------------+-------+-------+------------+-----------------+
 ; Data Port ; Clock Port ; Rise  ; Fall  ; Clock Edge ; Clock Reference ;
 +-----------+------------+-------+-------+------------+-----------------+
-; d_out[*]  ; clock      ; 3.660 ; 3.660 ; Rise       ; clock           ;
-;  d_out[0] ; clock      ; 3.728 ; 3.728 ; Rise       ; clock           ;
-;  d_out[1] ; clock      ; 3.778 ; 3.778 ; Rise       ; clock           ;
-;  d_out[2] ; clock      ; 3.738 ; 3.738 ; Rise       ; clock           ;
-;  d_out[3] ; clock      ; 5.229 ; 5.229 ; Rise       ; clock           ;
-;  d_out[4] ; clock      ; 3.767 ; 3.767 ; Rise       ; clock           ;
-;  d_out[5] ; clock      ; 4.841 ; 4.841 ; Rise       ; clock           ;
-;  d_out[6] ; clock      ; 3.660 ; 3.660 ; Rise       ; clock           ;
-;  d_out[7] ; clock      ; 3.960 ; 3.960 ; Rise       ; clock           ;
+; d_out[*]  ; clock      ; 3.621 ; 3.621 ; Rise       ; clock           ;
+;  d_out[0] ; clock      ; 3.742 ; 3.742 ; Rise       ; clock           ;
+;  d_out[1] ; clock      ; 3.621 ; 3.621 ; Rise       ; clock           ;
+;  d_out[2] ; clock      ; 3.725 ; 3.725 ; Rise       ; clock           ;
+;  d_out[3] ; clock      ; 3.758 ; 3.758 ; Rise       ; clock           ;
+;  d_out[4] ; clock      ; 3.630 ; 3.630 ; Rise       ; clock           ;
+;  d_out[5] ; clock      ; 3.844 ; 3.844 ; Rise       ; clock           ;
+;  d_out[6] ; clock      ; 3.735 ; 3.735 ; Rise       ; clock           ;
+;  d_out[7] ; clock      ; 3.742 ; 3.742 ; Rise       ; clock           ;
 +-----------+------------+-------+-------+------------+-----------------+
 
 
@@ -559,14 +559,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; r_ctrl     ; d_out[0]    ; 4.812 ; 4.812 ; 4.812 ; 4.812 ;
-; r_ctrl     ; d_out[1]    ; 4.802 ; 4.802 ; 4.802 ; 4.802 ;
-; r_ctrl     ; d_out[2]    ; 4.822 ; 4.822 ; 4.822 ; 4.822 ;
-; r_ctrl     ; d_out[3]    ; 5.830 ; 5.830 ; 5.830 ; 5.830 ;
-; r_ctrl     ; d_out[4]    ; 4.853 ; 4.853 ; 4.853 ; 4.853 ;
-; r_ctrl     ; d_out[5]    ; 5.820 ; 5.820 ; 5.820 ; 5.820 ;
-; r_ctrl     ; d_out[6]    ; 4.840 ; 4.840 ; 4.840 ; 4.840 ;
-; r_ctrl     ; d_out[7]    ; 5.017 ; 5.017 ; 5.017 ; 5.017 ;
+; r_ctrl     ; d_out[0]    ; 5.008 ; 5.008 ; 5.008 ; 5.008 ;
+; r_ctrl     ; d_out[1]    ; 5.226 ; 5.226 ; 5.226 ; 5.226 ;
+; r_ctrl     ; d_out[2]    ; 4.747 ; 4.747 ; 4.747 ; 4.747 ;
+; r_ctrl     ; d_out[3]    ; 5.020 ; 5.020 ; 5.020 ; 5.020 ;
+; r_ctrl     ; d_out[4]    ; 5.236 ; 5.236 ; 5.236 ; 5.236 ;
+; r_ctrl     ; d_out[5]    ; 4.767 ; 4.767 ; 4.767 ; 4.767 ;
+; r_ctrl     ; d_out[6]    ; 5.000 ; 5.000 ; 5.000 ; 5.000 ;
+; r_ctrl     ; d_out[7]    ; 5.008 ; 5.008 ; 5.008 ; 5.008 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -575,14 +575,14 @@ No paths to report.
 +------------+-------------+-------+-------+-------+-------+
 ; Input Port ; Output Port ; RR    ; RF    ; FR    ; FF    ;
 +------------+-------------+-------+-------+-------+-------+
-; r_ctrl     ; d_out[0]    ; 2.552 ; 2.552 ; 2.552 ; 2.552 ;
-; r_ctrl     ; d_out[1]    ; 2.562 ; 2.562 ; 2.562 ; 2.562 ;
-; r_ctrl     ; d_out[2]    ; 2.562 ; 2.562 ; 2.562 ; 2.562 ;
-; r_ctrl     ; d_out[3]    ; 3.192 ; 3.192 ; 3.192 ; 3.192 ;
-; r_ctrl     ; d_out[4]    ; 2.592 ; 2.592 ; 2.592 ; 2.592 ;
-; r_ctrl     ; d_out[5]    ; 3.182 ; 3.182 ; 3.182 ; 3.182 ;
-; r_ctrl     ; d_out[6]    ; 2.581 ; 2.581 ; 2.581 ; 2.581 ;
-; r_ctrl     ; d_out[7]    ; 2.680 ; 2.680 ; 2.680 ; 2.680 ;
+; r_ctrl     ; d_out[0]    ; 2.647 ; 2.647 ; 2.647 ; 2.647 ;
+; r_ctrl     ; d_out[1]    ; 2.734 ; 2.734 ; 2.734 ; 2.734 ;
+; r_ctrl     ; d_out[2]    ; 2.518 ; 2.518 ; 2.518 ; 2.518 ;
+; r_ctrl     ; d_out[3]    ; 2.658 ; 2.658 ; 2.658 ; 2.658 ;
+; r_ctrl     ; d_out[4]    ; 2.744 ; 2.744 ; 2.744 ; 2.744 ;
+; r_ctrl     ; d_out[5]    ; 2.538 ; 2.538 ; 2.538 ; 2.538 ;
+; r_ctrl     ; d_out[6]    ; 2.638 ; 2.638 ; 2.638 ; 2.638 ;
+; r_ctrl     ; d_out[7]    ; 2.647 ; 2.647 ; 2.647 ; 2.647 ;
 +------------+-------------+-------+-------+-------+-------+
 
 
@@ -611,8 +611,8 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 +---------------------------------+-------+------+
 ; Illegal Clocks                  ; 0     ; 0    ;
 ; Unconstrained Clocks            ; 0     ; 0    ;
-; Unconstrained Input Ports       ; 10    ; 10   ;
-; Unconstrained Input Port Paths  ; 24    ; 24   ;
+; Unconstrained Input Ports       ; 11    ; 11   ;
+; Unconstrained Input Port Paths  ; 32    ; 32   ;
 ; Unconstrained Output Ports      ; 8     ; 8    ;
 ; Unconstrained Output Port Paths ; 16    ; 16   ;
 +---------------------------------+-------+------+
@@ -624,7 +624,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Aug 27 21:11:04 2013
+    Info: Processing started: Wed Aug 28 20:11:26 2013
 Info: Command: quartus_sta registrador -c registrador
 Info: qsta_default_script.tcl version: #2
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -662,8 +662,8 @@ Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 4 warnings
     Info: Peak virtual memory: 270 megabytes
-    Info: Processing ended: Tue Aug 27 21:11:08 2013
-    Info: Elapsed time: 00:00:04
+    Info: Processing ended: Wed Aug 28 20:11:29 2013
+    Info: Elapsed time: 00:00:03
     Info: Total CPU time (on all processors): 00:00:01
 
 

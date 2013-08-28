@@ -1,5 +1,5 @@
 Analysis & Synthesis report for registrador
-Tue Aug 27 21:56:40 2013
+Wed Aug 28 20:11:12 2013
 Quartus II 32-bit Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition
 
 
@@ -41,7 +41,7 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                       ;
 +------------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Aug 27 21:56:40 2013         ;
+; Analysis & Synthesis Status        ; Successful - Wed Aug 28 20:11:12 2013         ;
 ; Quartus II 32-bit Version          ; 12.0 Build 232 07/05/2012 SP 1 SJ Web Edition ;
 ; Revision Name                      ; registrador                                   ;
 ; Top-level Entity Name              ; registrador                                   ;
@@ -50,7 +50,7 @@ applicable agreement for further details.
 ;     Total combinational functions  ; 0                                             ;
 ;     Dedicated logic registers      ; 8                                             ;
 ; Total registers                    ; 8                                             ;
-; Total pins                         ; 19                                            ;
+; Total pins                         ; 20                                            ;
 ; Total virtual pins                 ; 0                                             ;
 ; Total memory bits                  ; 0                                             ;
 ; Embedded Multiplier 9-bit elements ; 0                                             ;
@@ -183,11 +183,11 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;     -- Dedicated logic registers            ; 8      ;
 ;     -- I/O registers                        ; 0      ;
 ;                                             ;        ;
-; I/O pins                                    ; 19     ;
+; I/O pins                                    ; 20     ;
 ; Maximum fan-out node                        ; r_ctrl ;
 ; Maximum fan-out                             ; 8      ;
-; Total fan-out                               ; 40     ;
-; Average fan-out                             ; 1.48   ;
+; Total fan-out                               ; 48     ;
+; Average fan-out                             ; 1.71   ;
 +---------------------------------------------+--------+
 
 
@@ -196,7 +196,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 ; Compilation Hierarchy Node ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name ; Library Name ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
-; |registrador               ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 19   ; 0            ; |registrador        ;              ;
+; |registrador               ; 0 (0)             ; 8 (8)        ; 0           ; 0            ; 0       ; 0         ; 20   ; 0            ; |registrador        ;              ;
 +----------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
@@ -209,7 +209,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Total registers                              ; 8     ;
 ; Number of registers using Synchronous Clear  ; 0     ;
 ; Number of registers using Synchronous Load   ; 0     ;
-; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Clear ; 8     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
 ; Number of registers using Clock Enable       ; 8     ;
 ; Number of registers using Preset             ; 0     ;
@@ -221,7 +221,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:00     ;
+; Top            ; 00:00:01     ;
 +----------------+--------------+
 
 
@@ -231,24 +231,23 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Aug 27 21:56:37 2013
+    Info: Processing started: Wed Aug 28 20:11:08 2013
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off registrador -c registrador
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file registrador.vhd
     Info (12022): Found design unit 1: registrador-reg8b
     Info (12023): Found entity 1: registrador
 Info (12127): Elaborating entity "registrador" for the top level hierarchy
-Warning (10492): VHDL Process Statement warning at registrador.vhd(16): signal "r_en" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 27 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 11 input pins
+Info (21057): Implemented 28 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 12 input pins
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 8 logic cells
-Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 329 megabytes
-    Info: Processing ended: Tue Aug 27 21:56:40 2013
-    Info: Elapsed time: 00:00:03
+Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 328 megabytes
+    Info: Processing ended: Wed Aug 28 20:11:12 2013
+    Info: Elapsed time: 00:00:04
     Info: Total CPU time (on all processors): 00:00:03
 
 

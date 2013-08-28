@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\registrador\simulation\modelsim
 Eregistrador
-Z1 w1377648672
+Z1 w1377731495
 Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
 Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
 Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
@@ -16,12 +16,12 @@ Z9 8registrador.vho
 Z10 Fregistrador.vho
 l0
 L34
-V`:Mzz@m?;:Pa0F4Of878X1
-!s100 ?Jaecbb^3lnZY8ffgB?161
+Vib[fRm>lDQ5Q]1Zk@1o1L1
+!s100 a]e0nHGlZUn4?Y5P7:=z31
 Z11 OV;C;10.1d;51
 31
 !i10b 1
-Z12 !s108 1377651160.857000
+Z12 !s108 1377731531.826000
 Z13 !s90 -reportprogress|300|-93|-work|work|registrador.vho|
 Z14 !s107 registrador.vho|
 Z15 o-93 -work work -O0
@@ -33,11 +33,11 @@ R4
 R5
 R6
 R7
-DEx4 work 11 registrador 0 22 `:Mzz@m?;:Pa0F4Of878X1
-l97
-L66
-V2VKL9kji_UDAgIL;V=O:`1
-!s100 ;48^8ElWe[Vam9ClgNP2K0
+DEx4 work 11 registrador 0 22 ib[fRm>lDQ5Q]1Zk@1o1L1
+l103
+L68
+VUan@AQl3?C>J9nJ5n:GWD3
+!s100 KgQBJYE:ZIgJ^cBH0Yh=o1
 R11
 31
 !i10b 1

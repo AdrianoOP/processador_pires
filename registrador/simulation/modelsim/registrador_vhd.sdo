@@ -24,7 +24,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "registrador")
-  (DATE "08/27/2013 21:11:12")
+  (DATE "08/28/2013 20:11:35")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 32-bit")
   (VERSION "Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition")
@@ -78,9 +78,42 @@
     (INSTANCE \\temp\[0\]\~feeder\\)
     (DELAY
       (ABSOLUTE
-        (PORT datad (645:645:645) (645:645:645))
+        (PORT datad (1363:1363:1363) (1363:1363:1363))
         (IOPATH datad combout (149:149:149) (149:149:149))
       )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_asynch_io")
+    (INSTANCE \\reset\~I\\.asynch_inst)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH padio combout (999:999:999) (999:999:999))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_clkctrl")
+    (INSTANCE \\reset\~clkctrl\\)
+    (DELAY
+      (ABSOLUTE
+        (PORT inclk[0] (113:113:113) (113:113:113))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneii_ena_reg")
+    (INSTANCE \\reset\~clkctrl\\.extena0_reg)
+    (DELAY
+      (ABSOLUTE
+        (PORT d (254:254:254) (254:254:254))
+        (PORT clk (0:0:0) (0:0:0))
+        (IOPATH (posedge clk) q (218:218:218) (218:218:218))
+      )
+    )
+    (TIMINGCHECK
+      (SETUP d (posedge clk) (50:50:50))
+      (HOLD d (posedge clk) (100:100:100))
     )
   )
   (CELL
@@ -88,7 +121,7 @@
     (INSTANCE \\r_en\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (IOPATH padio combout (870:870:870) (870:870:870))
+        (IOPATH padio combout (830:830:830) (830:830:830))
       )
     )
   )
@@ -97,10 +130,12 @@
     (INSTANCE \\temp\[0\]\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (1580:1580:1580) (1580:1580:1580))
+        (PORT clk (1565:1565:1565) (1565:1565:1565))
         (PORT datain (84:84:84) (84:84:84))
-        (PORT ena (5666:5666:5666) (5666:5666:5666))
+        (PORT aclr (1569:1569:1569) (1569:1569:1569))
+        (PORT ena (5435:5435:5435) (5435:5435:5435))
         (IOPATH (posedge clk) regout (250:250:250) (250:250:250))
+        (IOPATH (posedge aclr) regout (218:218:218) (218:218:218))
       )
     )
     (TIMINGCHECK
@@ -122,7 +157,7 @@
     (INSTANCE \\d_in\[1\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (IOPATH padio combout (850:850:850) (850:850:850))
+        (IOPATH padio combout (820:820:820) (820:820:820))
       )
     )
   )
@@ -131,7 +166,7 @@
     (INSTANCE \\temp\[1\]\~feeder\\)
     (DELAY
       (ABSOLUTE
-        (PORT datad (6308:6308:6308) (6308:6308:6308))
+        (PORT datad (6125:6125:6125) (6125:6125:6125))
         (IOPATH datad combout (149:149:149) (149:149:149))
       )
     )
@@ -141,10 +176,12 @@
     (INSTANCE \\temp\[1\]\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (1580:1580:1580) (1580:1580:1580))
+        (PORT clk (1565:1565:1565) (1565:1565:1565))
         (PORT datain (84:84:84) (84:84:84))
-        (PORT ena (5666:5666:5666) (5666:5666:5666))
+        (PORT aclr (1569:1569:1569) (1569:1569:1569))
+        (PORT ena (5435:5435:5435) (5435:5435:5435))
         (IOPATH (posedge clk) regout (250:250:250) (250:250:250))
+        (IOPATH (posedge aclr) regout (218:218:218) (218:218:218))
       )
     )
     (TIMINGCHECK
@@ -157,7 +194,7 @@
     (INSTANCE \\d_in\[2\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (IOPATH padio combout (840:840:840) (840:840:840))
+        (IOPATH padio combout (832:832:832) (832:832:832))
       )
     )
   )
@@ -166,7 +203,7 @@
     (INSTANCE \\temp\[2\]\~feeder\\)
     (DELAY
       (ABSOLUTE
-        (PORT datad (4804:4804:4804) (4804:4804:4804))
+        (PORT datad (5495:5495:5495) (5495:5495:5495))
         (IOPATH datad combout (149:149:149) (149:149:149))
       )
     )
@@ -176,10 +213,12 @@
     (INSTANCE \\temp\[2\]\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (1580:1580:1580) (1580:1580:1580))
+        (PORT clk (1565:1565:1565) (1565:1565:1565))
         (PORT datain (84:84:84) (84:84:84))
-        (PORT ena (5666:5666:5666) (5666:5666:5666))
+        (PORT aclr (1569:1569:1569) (1569:1569:1569))
+        (PORT ena (5435:5435:5435) (5435:5435:5435))
         (IOPATH (posedge clk) regout (250:250:250) (250:250:250))
+        (IOPATH (posedge aclr) regout (218:218:218) (218:218:218))
       )
     )
     (TIMINGCHECK
@@ -201,7 +240,7 @@
     (INSTANCE \\temp\[3\]\~feeder\\)
     (DELAY
       (ABSOLUTE
-        (PORT datad (4830:4830:4830) (4830:4830:4830))
+        (PORT datad (5027:5027:5027) (5027:5027:5027))
         (IOPATH datad combout (149:149:149) (149:149:149))
       )
     )
@@ -211,10 +250,12 @@
     (INSTANCE \\temp\[3\]\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (1580:1580:1580) (1580:1580:1580))
+        (PORT clk (1565:1565:1565) (1565:1565:1565))
         (PORT datain (84:84:84) (84:84:84))
-        (PORT ena (5666:5666:5666) (5666:5666:5666))
+        (PORT aclr (1569:1569:1569) (1569:1569:1569))
+        (PORT ena (5435:5435:5435) (5435:5435:5435))
         (IOPATH (posedge clk) regout (250:250:250) (250:250:250))
+        (IOPATH (posedge aclr) regout (218:218:218) (218:218:218))
       )
     )
     (TIMINGCHECK
@@ -236,7 +277,7 @@
     (INSTANCE \\temp\[4\]\~feeder\\)
     (DELAY
       (ABSOLUTE
-        (PORT datad (6270:6270:6270) (6270:6270:6270))
+        (PORT datad (5024:5024:5024) (5024:5024:5024))
         (IOPATH datad combout (149:149:149) (149:149:149))
       )
     )
@@ -246,10 +287,12 @@
     (INSTANCE \\temp\[4\]\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (1580:1580:1580) (1580:1580:1580))
+        (PORT clk (1565:1565:1565) (1565:1565:1565))
         (PORT datain (84:84:84) (84:84:84))
-        (PORT ena (5666:5666:5666) (5666:5666:5666))
+        (PORT aclr (1569:1569:1569) (1569:1569:1569))
+        (PORT ena (5435:5435:5435) (5435:5435:5435))
         (IOPATH (posedge clk) regout (250:250:250) (250:250:250))
+        (IOPATH (posedge aclr) regout (218:218:218) (218:218:218))
       )
     )
     (TIMINGCHECK
@@ -262,7 +305,7 @@
     (INSTANCE \\d_in\[5\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (IOPATH padio combout (830:830:830) (830:830:830))
+        (IOPATH padio combout (852:852:852) (852:852:852))
       )
     )
   )
@@ -271,7 +314,7 @@
     (INSTANCE \\temp\[5\]\~feeder\\)
     (DELAY
       (ABSOLUTE
-        (PORT datad (5056:5056:5056) (5056:5056:5056))
+        (PORT datad (5524:5524:5524) (5524:5524:5524))
         (IOPATH datad combout (149:149:149) (149:149:149))
       )
     )
@@ -281,10 +324,12 @@
     (INSTANCE \\temp\[5\]\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (1580:1580:1580) (1580:1580:1580))
+        (PORT clk (1565:1565:1565) (1565:1565:1565))
         (PORT datain (84:84:84) (84:84:84))
-        (PORT ena (5666:5666:5666) (5666:5666:5666))
+        (PORT aclr (1569:1569:1569) (1569:1569:1569))
+        (PORT ena (5435:5435:5435) (5435:5435:5435))
         (IOPATH (posedge clk) regout (250:250:250) (250:250:250))
+        (IOPATH (posedge aclr) regout (218:218:218) (218:218:218))
       )
     )
     (TIMINGCHECK
@@ -297,7 +342,7 @@
     (INSTANCE \\d_in\[6\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (IOPATH padio combout (840:840:840) (840:840:840))
+        (IOPATH padio combout (820:820:820) (820:820:820))
       )
     )
   )
@@ -306,7 +351,7 @@
     (INSTANCE \\temp\[6\]\~feeder\\)
     (DELAY
       (ABSOLUTE
-        (PORT datad (6103:6103:6103) (6103:6103:6103))
+        (PORT datad (5823:5823:5823) (5823:5823:5823))
         (IOPATH datad combout (149:149:149) (149:149:149))
       )
     )
@@ -316,10 +361,12 @@
     (INSTANCE \\temp\[6\]\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (1580:1580:1580) (1580:1580:1580))
+        (PORT clk (1565:1565:1565) (1565:1565:1565))
         (PORT datain (84:84:84) (84:84:84))
-        (PORT ena (5666:5666:5666) (5666:5666:5666))
+        (PORT aclr (1569:1569:1569) (1569:1569:1569))
+        (PORT ena (5435:5435:5435) (5435:5435:5435))
         (IOPATH (posedge clk) regout (250:250:250) (250:250:250))
+        (IOPATH (posedge aclr) regout (218:218:218) (218:218:218))
       )
     )
     (TIMINGCHECK
@@ -332,7 +379,7 @@
     (INSTANCE \\d_in\[7\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (IOPATH padio combout (840:840:840) (840:840:840))
+        (IOPATH padio combout (852:852:852) (852:852:852))
       )
     )
   )
@@ -341,7 +388,7 @@
     (INSTANCE \\temp\[7\]\~feeder\\)
     (DELAY
       (ABSOLUTE
-        (PORT datad (5307:5307:5307) (5307:5307:5307))
+        (PORT datad (5496:5496:5496) (5496:5496:5496))
         (IOPATH datad combout (149:149:149) (149:149:149))
       )
     )
@@ -351,10 +398,12 @@
     (INSTANCE \\temp\[7\]\\)
     (DELAY
       (ABSOLUTE
-        (PORT clk (1580:1580:1580) (1580:1580:1580))
+        (PORT clk (1565:1565:1565) (1565:1565:1565))
         (PORT datain (84:84:84) (84:84:84))
-        (PORT ena (5666:5666:5666) (5666:5666:5666))
+        (PORT aclr (1569:1569:1569) (1569:1569:1569))
+        (PORT ena (5435:5435:5435) (5435:5435:5435))
         (IOPATH (posedge clk) regout (250:250:250) (250:250:250))
+        (IOPATH (posedge aclr) regout (218:218:218) (218:218:218))
       )
     )
     (TIMINGCHECK
@@ -367,9 +416,9 @@
     (INSTANCE \\d_out\[0\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (PORT datain (867:867:867) (867:867:867))
-        (PORT oe (3388:3388:3388) (3388:3388:3388))
-        (IOPATH datain padio (2758:2758:2758) (2758:2758:2758))
+        (PORT datain (847:847:847) (847:847:847))
+        (PORT oe (3584:3584:3584) (3584:3584:3584))
+        (IOPATH datain padio (2798:2798:2798) (2798:2798:2798))
         (IOPATH (posedge oe) padio (445:445:445) (445:445:445))
       )
     )
@@ -379,9 +428,9 @@
     (INSTANCE \\d_out\[1\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (PORT datain (884:884:884) (884:884:884))
-        (PORT oe (3378:3378:3378) (3378:3378:3378))
-        (IOPATH datain padio (2798:2798:2798) (2798:2798:2798))
+        (PORT datain (625:625:625) (625:625:625))
+        (PORT oe (3802:3802:3802) (3802:3802:3802))
+        (IOPATH datain padio (2778:2778:2778) (2778:2778:2778))
         (IOPATH (posedge oe) padio (445:445:445) (445:445:445))
       )
     )
@@ -391,9 +440,9 @@
     (INSTANCE \\d_out\[2\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (PORT datain (867:867:867) (867:867:867))
-        (PORT oe (3398:3398:3398) (3398:3398:3398))
-        (IOPATH datain padio (2768:2768:2768) (2768:2768:2768))
+        (PORT datain (853:853:853) (853:853:853))
+        (PORT oe (3323:3323:3323) (3323:3323:3323))
+        (IOPATH datain padio (2778:2778:2778) (2778:2778:2778))
         (IOPATH (posedge oe) padio (445:445:445) (445:445:445))
       )
     )
@@ -403,9 +452,9 @@
     (INSTANCE \\d_out\[3\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (PORT datain (3669:3669:3669) (3669:3669:3669))
-        (PORT oe (4406:4406:4406) (4406:4406:4406))
-        (IOPATH datain padio (2768:2768:2768) (2768:2768:2768))
+        (PORT datain (856:856:856) (856:856:856))
+        (PORT oe (3596:3596:3596) (3596:3596:3596))
+        (IOPATH datain padio (2808:2808:2808) (2808:2808:2808))
         (IOPATH (posedge oe) padio (445:445:445) (445:445:445))
       )
     )
@@ -415,9 +464,9 @@
     (INSTANCE \\d_out\[4\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (PORT datain (867:867:867) (867:867:867))
-        (PORT oe (3429:3429:3429) (3429:3429:3429))
-        (IOPATH datain padio (2798:2798:2798) (2798:2798:2798))
+        (PORT datain (622:622:622) (622:622:622))
+        (PORT oe (3812:3812:3812) (3812:3812:3812))
+        (IOPATH datain padio (2788:2788:2788) (2788:2788:2788))
         (IOPATH (posedge oe) padio (445:445:445) (445:445:445))
       )
     )
@@ -427,9 +476,9 @@
     (INSTANCE \\d_out\[5\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (PORT datain (3183:3183:3183) (3183:3183:3183))
-        (PORT oe (4396:4396:4396) (4396:4396:4396))
-        (IOPATH datain padio (2758:2758:2758) (2758:2758:2758))
+        (PORT datain (1077:1077:1077) (1077:1077:1077))
+        (PORT oe (3343:3343:3343) (3343:3343:3343))
+        (IOPATH datain padio (2798:2798:2798) (2798:2798:2798))
         (IOPATH (posedge oe) padio (445:445:445) (445:445:445))
       )
     )
@@ -439,8 +488,8 @@
     (INSTANCE \\d_out\[6\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (PORT datain (651:651:651) (651:651:651))
-        (PORT oe (3416:3416:3416) (3416:3416:3416))
+        (PORT datain (854:854:854) (854:854:854))
+        (PORT oe (3576:3576:3576) (3576:3576:3576))
         (IOPATH datain padio (2788:2788:2788) (2788:2788:2788))
         (IOPATH (posedge oe) padio (445:445:445) (445:445:445))
       )
@@ -451,9 +500,9 @@
     (INSTANCE \\d_out\[7\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (PORT datain (1337:1337:1337) (1337:1337:1337))
-        (PORT oe (3593:3593:3593) (3593:3593:3593))
-        (IOPATH datain padio (2778:2778:2778) (2778:2778:2778))
+        (PORT datain (848:848:848) (848:848:848))
+        (PORT oe (3584:3584:3584) (3584:3584:3584))
+        (IOPATH datain padio (2798:2798:2798) (2798:2798:2798))
         (IOPATH (posedge oe) padio (445:445:445) (445:445:445))
       )
     )
