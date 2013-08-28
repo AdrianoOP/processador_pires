@@ -1,0 +1,48 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\RAM\simulation\modelsim
+Eram
+Z1 w1377730544
+Z2 DPx4 ieee 16 vital_primitives 0 22 9W@YP9_VCb?_GCJ8e:;YQ0
+Z3 DPx9 cycloneii 19 cycloneii_atom_pack 0 22 zUjlM<IUJVWSWg:L2<>ic3
+Z4 DPx4 ieee 12 vital_timing 0 22 7h8zz2S4HVg:a;2TBMI[j1
+Z5 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z7 DPx9 cycloneii 20 cycloneii_components 0 22 h@gSJ;Al32oYg[7^PbnAR0
+Z8 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\RAM\simulation\modelsim
+Z9 8RAM.vho
+Z10 FRAM.vho
+l0
+L34
+VYP87H38_:;NW]WbFBFMm11
+!s100 I<3b2KO3ad5MT[_?e98cY0
+Z11 OV;C;10.1d;51
+31
+!i10b 1
+Z12 !s108 1377730558.141000
+Z13 !s90 -reportprogress|300|-93|-work|work|RAM.vho|
+Z14 !s107 RAM.vho|
+Z15 o-93 -work work -O0
+Z16 tExplicit 1
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 3 ram 0 22 YP87H38_:;NW]WbFBFMm11
+l99
+L73
+VoOkCIGRC<A8iC]R2HMoTe1
+!s100 L;MMOKEPSN>A=gZEMFfa>0
+R11
+31
+!i10b 1
+R12
+R13
+R14
+R15
+R16

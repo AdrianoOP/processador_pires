@@ -1,0 +1,77 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\RAM
+Eram
+Z1 w1377730303
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\RAM
+Z5 8RAM.vhd
+Z6 FRAM.vhd
+l0
+L42
+VJ>V1zYgEQZhShbh;VXj]D1
+!s100 GH@QAWMLolkTiQXkcfz7S0
+Z7 OV;C;10.1d;51
+32
+!i10b 1
+Z8 !s108 1377730695.809000
+Z9 !s90 -reportprogress|300|RAM.vhd|RAM_simu.vhd|
+Z10 !s107 RAM_simu.vhd|RAM.vhd|
+o-O0
+Z11 tExplicit 1
+Asyn
+R2
+R3
+Z12 DEx4 work 3 ram 0 22 J>V1zYgEQZhShbh;VXj]D1
+l85
+L54
+Z13 V_PNGbd<0foh@fWKgL86YB2
+Z14 !s100 BlAFDJ6;9D;kHTVnBoaXJ2
+R7
+32
+!i10b 1
+R8
+R9
+R10
+o-O0
+R11
+Eram_simu
+Z15 w1377730685
+Z16 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z17 8RAM_simu.vhd
+Z18 FRAM_simu.vhd
+l0
+L6
+Vj:ST?SI`i4efF?G>BCECi0
+!s100 3XNd2mWR`e@B:HlK?_20U2
+R7
+32
+!i10b 1
+R8
+R9
+R10
+o-O0
+R11
+Aestimulos
+R16
+R2
+R3
+Z19 DEx4 work 8 ram_simu 0 22 j:ST?SI`i4efF?G>BCECi0
+l25
+L9
+VK^R9KKQ?jDNZa24Io;W@R3
+!s100 HhPAYeGWeGd=DFWMYifRP1
+R7
+32
+!i10b 1
+R8
+R9
+R10
+o-O0
+R11

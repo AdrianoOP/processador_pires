@@ -1,0 +1,116 @@
+# Reading C:/altera/12.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do RAM_run_msim_gate_vhdl.do 
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Copying C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {RAM.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity RAM
+# -- Compiling architecture structure of RAM
+# 
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM/simulation/modelsim/RAM_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {RAM.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity RAM
+# -- Compiling architecture structure of RAM
+# 
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM/simulation/modelsim/RAM_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {RAM.vho}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneii_atom_pack
+# -- Loading package cycloneii_components
+# -- Compiling entity RAM
+# -- Compiling architecture structure of RAM
+# 
+cd C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM
+# reading C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM/RAM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RAM
+# -- Compiling architecture SYN of ram
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM_simu
+# -- Compiling architecture estimulos of RAM_simu
+# vsim -t ns work.RAM_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_simu(estimulos)
+# Loading work.ram(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# .main_pane.wave.interior.cs.body.pw.wf
+do C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM/RAM_simu.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity RAM
+# -- Compiling architecture SYN of ram
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM_simu
+# -- Compiling architecture estimulos of RAM_simu
+# vsim -t ns work.RAM_simu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.ram_simu(estimulos)
+# Loading work.ram(syn)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altera_common_conversion(body)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.altsyncram(translated)
+# .main_pane.wave.interior.cs.body.pw.wf
