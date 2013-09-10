@@ -1,0 +1,32 @@
+\documentclass[../main.tex]{subfiles} 
+\begin{document}
+	A arquitetura projetada para o bloco de dados foi parcialmente feita baseada no microprocessador Cleópatra, apresentado em aula. Na figura~\ref{fig:arq_bloco_dados} segue o
+	diagrama projetado.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{img/bloco_dados}
+		\caption{Arquitetura originalmente projetada para o Bloco de Dados.}
+		\label{fig:arq_bloco_dados}
+	\end{figure}
+	
+	O Bloco de Dados foi projetado em separado da estrutura de controle, já pensando na facilitação da montagem e modularização dos \textit{TestBenchs}. Sua arquitetura prevê:
+	\begin{itemize}
+		\item Uma \textbf{ULA - Unidade Lógica Aritmética} com as operações que serão descritas na sessão~\ref{sec:ULA}, saída em Latch, um registrador interno de 16 bits e sinalização de flags para o Bloco de Controle;
+		\item 4 Registradores:
+			\begin{enumerate}
+				\item \textbf{Program Counter - PC:} Que armazena o endereço da ROM que contém o trecho do programa que deve ser executado;
+				\item \textbf{Instruction Register - IR:} Que armazena a instrução, ou o operando desta, a ser executada pelo processador. O IR também é conectado diretamente com o Bloco de controle;
+				\item \textbf{B:} Registrador de propósito geral, que pode armazenar dados vindos da ULA;
+				\item \textbf{A:} Registrador de propósito geral, podendo armazenar dados da RAM, da ULA ou diretamente do registrador B;
+			\end{enumerate}
+		\item 3 Barramentos de dados:
+			\begin{enumerate}
+				\item \textbf{Bus C:} Pode receber dados dos Registradores \textbf{A} ou \textbf{PC};
+				\item \textbf{Bus D:} Pode receber dados dos Registradores \textbf{B} ou \textbf{IR};
+				\item \textbf{Saída da ULA:} Disponibiliza dados para os endereços da RAM e da ROM, além dos registradores \textbf{PC}, \textbf{B} e \textbf{A};				
+			\end{enumerate}
+		\item Uma memória ROM, que disponibiliza dados diretamente para o registrador \textbf{IR}, dependendo do endereço definido pela saída da ULA;
+		\item Uma memória RAM, que troca dados diretamente com o registrador \textbf{A};
+	\end{itemize}
+\end{document}

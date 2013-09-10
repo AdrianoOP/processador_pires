@@ -1,0 +1,16 @@
+
+State Machine - |controle|proximo_estado
+Name proximo_estado.S12 proximo_estado.S11 proximo_estado.S10 proximo_estado.S9 proximo_estado.S8 proximo_estado.S7 proximo_estado.S6 proximo_estado.S5 proximo_estado.S4 proximo_estado.S3 proximo_estado.S2 proximo_estado.S1 proximo_estado.S0 
+proximo_estado.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+proximo_estado.S1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+proximo_estado.S2 0 0 0 0 0 0 0 0 0 0 1 0 1 
+proximo_estado.S3 0 0 0 0 0 0 0 0 0 1 0 0 1 
+proximo_estado.S4 0 0 0 0 0 0 0 0 1 0 0 0 1 
+proximo_estado.S5 0 0 0 0 0 0 0 1 0 0 0 0 1 
+proximo_estado.S6 0 0 0 0 0 0 1 0 0 0 0 0 1 
+proximo_estado.S7 0 0 0 0 0 1 0 0 0 0 0 0 1 
+proximo_estado.S8 0 0 0 0 1 0 0 0 0 0 0 0 1 
+proximo_estado.S9 0 0 0 1 0 0 0 0 0 0 0 0 1 
+proximo_estado.S10 0 0 1 0 0 0 0 0 0 0 0 0 1 
+proximo_estado.S11 0 1 0 0 0 0 0 0 0 0 0 0 1 
+proximo_estado.S12 1 0 0 0 0 0 0 0 0 0 0 0 1 

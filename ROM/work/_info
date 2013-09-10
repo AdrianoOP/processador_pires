@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM
 Erom
-Z1 w1377662593
+Z1 w1378065200
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
 Z4 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ROM
@@ -17,7 +17,7 @@ V>AQ;Z8M_ckiI=Llm?1l5i2
 Z7 OV;C;10.1d;51
 32
 !i10b 1
-Z8 !s108 1377663834.022000
+Z8 !s108 1378065311.648000
 Z9 !s90 -reportprogress|300|ROM.vhd|ROM_simu.vhd|
 Z10 !s107 ROM_simu.vhd|ROM.vhd|
 o-O0
@@ -25,11 +25,11 @@ Z11 tExplicit 1
 Asyn
 R2
 R3
-Z12 DEx4 work 3 rom 0 22 >AQ;Z8M_ckiI=Llm?1l5i2
+DEx4 work 3 rom 0 22 >AQ;Z8M_ckiI=Llm?1l5i2
 l83
 L53
-Z13 VKbM?kLEfmKek^gchEX9Qf0
-Z14 !s100 6[b@4M1@0F6n8S32e0[B`0
+V?30:VV_n[W?NZ=[d>B@BN3
+!s100 hhKeOjTQ]==D]T?a1hGjK0
 R7
 32
 !i10b 1
@@ -39,13 +39,13 @@ R10
 o-O0
 R11
 Erom_simu
-Z15 w1377663824
-Z16 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z12 w1377664008
+Z13 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 R2
 R3
 R4
-Z17 8ROM_simu.vhd
-Z18 FROM_simu.vhd
+Z14 8ROM_simu.vhd
+Z15 FROM_simu.vhd
 l0
 L6
 VKifNL8WH5_az=:XMjGeF83
@@ -59,14 +59,14 @@ R10
 o-O0
 R11
 Aestimulos
-R16
+R13
 R2
 R3
-Z19 DEx4 work 8 rom_simu 0 22 KifNL8WH5_az=:XMjGeF83
+Z16 DEx4 work 8 rom_simu 0 22 KifNL8WH5_az=:XMjGeF83
 l24
 L9
-VMk8XK9z?LLn?RnZ@8:dW^2
-!s100 SJJ^RAm=SeiEGLLWPnEoG3
+Z17 VMk8XK9z?LLn?RnZ@8:dW^2
+Z18 !s100 SJJ^RAm=SeiEGLLWPnEoG3
 R7
 32
 !i10b 1

@@ -1,0 +1,28 @@
+\documentclass[../main.tex]{subfiles} 
+\begin{document}
+Para as análises em questão será considerado, para cada função, que todos os registradores estão zerados e o bloco controlador está em seu estado inicial.
+
+Todas as instruções terão em comum o mesmo comportamento dos registradores de acordo com a tabela~\ref{tab:tabela_estados_iniciais} abaixo.
+
+\begin{table}[H]
+	\centering
+	\caption{Tabela de valores de registradores comum a todos as instruções}
+	\begin{tabular}{|c|c|c|c|c|c|} %7 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	1 & 0b00000000 & 0b00000000 & 0bXXXXXXXX & 0bYYYYYYYY & S0 \\\hline % estado inicial
+	2 & 0b00000000 & instrução & 0bXXXXXXXX & 0bYYYYYYYY & S1 \\\hline % estado um
+	\end{tabular}
+	\label{tab:tabela_estados_iniciais}
+\end{table}
+
+Os demais comportamentos dos registradores para cada estado de todas as instruções estão descritos nas tabelas abaixo
+
+		\section{Instruções tipo I}
+			\subfile{cap/valores_registradores_tipoI}
+		\section{Instruções tipo J}
+			\subfile{cap/valores_registradores_tipoJ}
+		\section{Instruções tipo R}
+			\subfile{cap/valores_registradores_tipoR}
+	
+\end{document}

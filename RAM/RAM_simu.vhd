@@ -13,13 +13,15 @@ architecture estimulos of RAM_simu is
 			address, data: IN STD_LOGIC_VECTOR (7 DOWNTO 0);
 			inclock	: IN STD_LOGIC ;
 			wren	: IN STD_LOGIC ; --habilita escrita
+			RAM_IN	:	IN	STD_LOGIC_VECTOR (7 DOWNTO 0);
+			RAM_OUT	:	OUT STD_LOGIC_VECTOR (7	DOWNTO 0);
 			q	: OUT STD_LOGIC_VECTOR (7 DOWNTO 0)
 	);
 	END COMPONENT;
 	
 	--sinais para conectar no dispositivo sob teste
-	SIGNAL 	address				:		STD_LOGIC_VECTOR (7 DOWNTO 0);
-	SIGNAL 	clk, mRam_en	:		STD_LOGIC;
+	SIGNAL 	address					:		STD_LOGIC_VECTOR (7 DOWNTO 0);
+	SIGNAL 	clk, mRam_en			:		STD_LOGIC;
 	SIGNAL	d_out					:		STD_LOGIC_VECTOR (7 DOWNTO 0);
 	SIGNAL	d_in					:		STD_LOGIC_VECTOR (7 DOWNTO 0);
 BEGIN
@@ -28,6 +30,7 @@ BEGIN
 		address=>address,
 		inclock=>clk,
 		wren=>mRam_en,
+		RAM_IN=>d_in,
 		q=>d_out,
 		data=>d_in
 	);
@@ -37,7 +40,7 @@ BEGIN
 	BEGIN
 		address<="00000000"; 
 		d_in<="11111111";
-		mRam_en<='1';
+		mRam_en<='0';
 		-- escreve no endereco 0
 		WAIT FOR 25 NS;
 		address<="00000001";
@@ -52,8 +55,15 @@ BEGIN
 		address<="00000001";
 		--le do endereco 1
 		WAIT FOR 25 NS;
-		address<="00000010";
+		address<="00000110";
 		--le do endereco 2
+		WAIT FOR 25 NS;
+		address<="01100000";
+		d_in<="11111111";
+		WAIT FOR 25 NS;
+		mRam_en<='1';
+		WAIT FOR 25 NS;
+		mRam_en<='0';
 		WAIT FOR 25 NS;
 	END PROCESS sinais;
 	

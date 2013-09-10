@@ -1,0 +1,32 @@
+
+State Machine - |top_level|controle:controlador|proximo_estado
+Name proximo_estado.S12 proximo_estado.S11 proximo_estado.S10 proximo_estado.S9 proximo_estado.S8 proximo_estado.S7 proximo_estado.S6 proximo_estado.S5 proximo_estado.S4 proximo_estado.S3 proximo_estado.S2 proximo_estado.S1 proximo_estado.S0 
+proximo_estado.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+proximo_estado.S1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+proximo_estado.S2 0 0 0 0 0 0 0 0 0 0 1 0 1 
+proximo_estado.S3 0 0 0 0 0 0 0 0 0 1 0 0 1 
+proximo_estado.S4 0 0 0 0 0 0 0 0 1 0 0 0 1 
+proximo_estado.S5 0 0 0 0 0 0 0 1 0 0 0 0 1 
+proximo_estado.S6 0 0 0 0 0 0 1 0 0 0 0 0 1 
+proximo_estado.S7 0 0 0 0 0 1 0 0 0 0 0 0 1 
+proximo_estado.S8 0 0 0 0 1 0 0 0 0 0 0 0 1 
+proximo_estado.S9 0 0 0 1 0 0 0 0 0 0 0 0 1 
+proximo_estado.S10 0 0 1 0 0 0 0 0 0 0 0 0 1 
+proximo_estado.S11 0 1 0 0 0 0 0 0 0 0 0 0 1 
+proximo_estado.S12 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |top_level|controle:controlador|estado_atual
+Name estado_atual.S12 estado_atual.S11 estado_atual.S10 estado_atual.S9 estado_atual.S8 estado_atual.S7 estado_atual.S6 estado_atual.S5 estado_atual.S4 estado_atual.S3 estado_atual.S2 estado_atual.S1 estado_atual.S0 
+estado_atual.S0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+estado_atual.S1 0 0 0 0 0 0 0 0 0 0 0 1 1 
+estado_atual.S2 0 0 0 0 0 0 0 0 0 0 1 0 1 
+estado_atual.S3 0 0 0 0 0 0 0 0 0 1 0 0 1 
+estado_atual.S4 0 0 0 0 0 0 0 0 1 0 0 0 1 
+estado_atual.S5 0 0 0 0 0 0 0 1 0 0 0 0 1 
+estado_atual.S6 0 0 0 0 0 0 1 0 0 0 0 0 1 
+estado_atual.S7 0 0 0 0 0 1 0 0 0 0 0 0 1 
+estado_atual.S8 0 0 0 0 1 0 0 0 0 0 0 0 1 
+estado_atual.S9 0 0 0 1 0 0 0 0 0 0 0 0 1 
+estado_atual.S10 0 0 1 0 0 0 0 0 0 0 0 0 1 
+estado_atual.S11 0 1 0 0 0 0 0 0 0 0 0 0 1 
+estado_atual.S12 1 0 0 0 0 0 0 0 0 0 0 0 1 

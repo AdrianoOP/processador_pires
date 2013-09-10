@@ -12,4 +12,5 @@ add wave -radix binary /saida
 add wave -radix binary /Z
 add wave -radix binary /N
 add wave -radix binary /ULA_ctrl
+add wave -radix binary /reset
 run 500 ns

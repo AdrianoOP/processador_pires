@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\ULA
 Eula
-Z1 w1377658223
+Z1 w1377952471
 Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
 Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
@@ -13,12 +13,12 @@ Z6 8ULA.vhd
 Z7 FULA.vhd
 l0
 L17
-Vod@Z5lOz5JfSmiE4AbkhZ2
-!s100 mgiUa0Q@C5@<a:ZlUgT:z1
+VI16gecLcMYmUeF9maz5WF1
+!s100 Fg;EL<LgeS:0:Ykbd20:d2
 Z8 OV;C;10.1d;51
 32
 !i10b 1
-Z9 !s108 1377660061.353000
+Z9 !s108 1377952598.354000
 Z10 !s90 -reportprogress|300|ULA.vhd|ULA_simu.vhd|
 Z11 !s107 ULA_simu.vhd|ULA.vhd|
 o-O0
@@ -27,11 +27,11 @@ Aula_descrita
 R2
 R3
 R4
-DEx4 work 3 ula 0 22 od@Z5lOz5JfSmiE4AbkhZ2
-l30
-L25
-Z13 VV98?WfhcSC5eA73=XZF_Z1
-Z14 !s100 ==>9AY=8@K9bb@16a062e3
+Z13 DEx4 work 3 ula 0 22 I16gecLcMYmUeF9maz5WF1
+l31
+L26
+V11OQXmUfhRGhA0:kOVM^X2
+!s100 b5LO8Ph5VLz`cC=_>N3G50
 R8
 32
 !i10b 1
@@ -41,13 +41,13 @@ R11
 o-O0
 R12
 Eula_simu
-Z15 w1377657490
+Z14 w1377767304
 R2
 R3
 R4
 R5
-Z16 8ULA_simu.vhd
-Z17 FULA_simu.vhd
+Z15 8ULA_simu.vhd
+Z16 FULA_simu.vhd
 l0
 L6
 VBQNX@^Kk6Gn5UP1Dg2=le2
@@ -64,11 +64,11 @@ Aestimulos
 R2
 R3
 R4
-Z18 DEx4 work 8 ula_simu 0 22 BQNX@^Kk6Gn5UP1Dg2=le2
-l25
+Z17 DEx4 work 8 ula_simu 0 22 BQNX@^Kk6Gn5UP1Dg2=le2
+l27
 L9
-Z19 VagRRk9BnKO^k7jA<Tdj6L0
-Z20 !s100 TIbT66@6fP=7^=WdFNMhz2
+Z18 VzVLoi4eJWI57[4<f6oBAQ2
+Z19 !s100 dk:Q]gNUMRj`g:8Uza95F2
 R8
 32
 !i10b 1

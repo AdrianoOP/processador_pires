@@ -1,0 +1,26 @@
+\documentclass[../main.tex]{subfiles} 
+\begin{document}
+		O Bloco de Controle foi projetado baseando-se numa implementação de uma máquina de estado com desvios condicionais dependendo dos dados fornecidos pelo Bloco de Dados (Instrução e Flags).
+		Em cada estado, dependendo da instrução que está sendo executada pelo processador, o Bloco de Controle gera os sinais para os demais dispositivos de Hardware executarem corretamente o que foi programado.
+		A máquina de Estados é representada na figura~\ref{fig:maquina_estados}.
+		
+		\begin{figure}[h]
+			\centering
+			\includegraphics[width=\textwidth]{img/bloco_controle}
+			\caption{Máquina de estados implementada pelo Bloco de Controle}
+			\label{fig:maquina_estados}
+		\end{figure}
+		
+		Os estados podem ter a seguinte compreensão lógica:
+		\begin{itemize}
+			\item \textbf{S0:} É o estado inicial da máquina e será sempre responsável por atualizar o valor de \PC{} e atualizá-lo no endereço da memória ROM;
+			\item \textbf{S1:} Responsável por transferir a instrução gravada na ROM para \IR{} e incrementar o valor de \PC{} e atualizá-lo no endereço da memória ROM;
+			\item \textbf{S2:} Neste estado o Bloco de Controle já sabe que instrução está tratando e a ULA já executa a primeira operação específica de cada instrução, a partir daqui transições condicionais já são executadas;
+			\item \textbf{S3:} Neste estado a ULA executa a segunda operação específica da instrução;
+			\item \textbf{S4:} Neste estado \PC{} é incrementado e o processador fica pronto para voltar ao estado inicial;
+			\item \textbf{S5:} É um estado específico para implementar a função \textit{SWP}, habilita a ULA para seu funcionamento normal;
+			\item \textbf{S6:} Estado que trata as funções \textit{BLT} e \textit{BEQ} caso os flags sejam acionados;
+			\item \textbf{S7:} Específico para executar a primeira parte da instrução \textit{MUL};
+			\item \textbf{S8:} Específico para executar a segunda parte da instrução \textit{MUL};			
+		\end{itemize}
+\end{document}

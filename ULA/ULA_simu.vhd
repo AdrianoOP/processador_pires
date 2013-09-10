@@ -12,7 +12,8 @@ architecture estimulos of ULA_simu is
 			PORT(	Z,N				:		OUT STD_LOGIC;
 					C,D				:		IN SIGNED (7 DOWNTO 0);
 					saida			:		OUT SIGNED (7 DOWNTO 0);
-					ULA_ctrl		:		IN STD_LOGIC_VECTOR (3 DOWNTO 0)
+					ULA_ctrl		:		IN STD_LOGIC_VECTOR (3 DOWNTO 0);
+					reset			:		IN STD_LOGIC
 			);
 	END COMPONENT ULA;
 	
@@ -21,16 +22,21 @@ architecture estimulos of ULA_simu is
 	SIGNAL 	Z,N			:		STD_LOGIC;
 	SIGNAL	ULA_ctrl	:		STD_LOGIC_VECTOR (3 DOWNTO 0);
 	SIGNAL	saida		:		SIGNED (7 DOWNTO 0);
+	SIGNAL	reset		:		STD_LOGIC;
 	
 BEGIN
 	ULA1 : ULA
 	PORT MAP(
-		C=>C, D=>D, Z=>Z, N=>N, ULA_ctrl=>ULA_ctrl, saida=>saida
+		C=>C, D=>D, Z=>Z, N=>N, ULA_ctrl=>ULA_ctrl, saida=>saida, reset=>reset
 	);
 	
 	-- Processo que gera os sinais de teste para a ULA
 	sinais : PROCESS
 	BEGIN
+		-- testa Reset
+		reset<='1';
+		WAIT FOR 10 NS;
+		reset<='0';
 		--testa o PASSA_C OK
 		ULA_ctrl<="0000";
 		C<="10101010";

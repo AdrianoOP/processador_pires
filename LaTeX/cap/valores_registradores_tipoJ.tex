@@ -1,0 +1,18 @@
+\documentclass[../main.tex]{subfiles} 
+
+\begin{document}
+
+%%%%%%%%%%%%instrucao JMP
+\subsection{JMP end}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S3 \\\hline
+	5 & end & end & valor & 0bYYYYYYYY & S0 \\\hline
+	\end{tabular}
+\end{table}
+\end{document}

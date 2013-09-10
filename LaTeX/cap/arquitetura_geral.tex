@@ -1,0 +1,26 @@
+\documentclass[../main.tex]{subfiles} 
+\begin{document}
+	Para fins desta implementação, os conceitos utiliazados foram
+	definidos a partir do diagrama da figura~\ref{fig:processador_pires}.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[height=0.6\textheight]{img/processador_pires}
+		\caption{Diagrama geral do processador Pires}
+		\label{fig:processador_pires}
+	\end{figure}
+	
+	Para a arquitetura projetada um clock global sincronizará todo o hardware, composto dos seguintes elementos:
+	\begin{itemize}
+		\item Uma memória ROM, que irá guardar OPcodes (Já convertidos de assembly para binário) que são inseridos manualmente na ROM através de um método descrito na sessão~\ref{sec:ROM};
+		\item Uma memória RAM:
+			\begin{itemize}
+				\item Com endereçamento para até 256 palavras de 8 bits; 
+				\item Capaz de ler e escrever de registradores especiais do Bloco de dados; 
+				\item Com controle de gravação realizado pelo Bloco de Controle;
+				\item Com mapeamento de memória possibilitando conectar diretamente \textit{Inputs} e \textit{Outputs} do kit de desenvolvimento;
+			\end{itemize}
+		\item Um Bloco de Dados que armazena os dados temporários do processador (através dos registradores IR, PC, A e B) e que é responsável pelo processamento lógico aritmético;
+		\item Um Bloco de Controle que, dependendo da instrução, dos Flags da ULA e de uma máquina de estados, fornece os sinais que coordenam o funcionamento dos demais hardwares já descritos;
+	\end{itemize}
+\end{document}

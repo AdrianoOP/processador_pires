@@ -1,0 +1,149 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'ULA_ctrl[0]'
+Slack : -5.448
+TNS   : -102.999
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -3.780
+TNS   : -52.336
+
+Type  : Slow 1200mV 85C Model Setup 'ULA_en'
+Slack : -3.502
+TNS   : -24.988
+
+Type  : Slow 1200mV 85C Model Setup 'ULA:ULA1|N'
+Slack : -2.327
+TNS   : -17.488
+
+Type  : Slow 1200mV 85C Model Hold 'ULA_ctrl[0]'
+Slack : -0.209
+TNS   : -0.672
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : -0.019
+TNS   : -0.019
+
+Type  : Slow 1200mV 85C Model Hold 'ULA:ULA1|N'
+Slack : 1.698
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'ULA_en'
+Slack : 2.365
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -53.088
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ULA_ctrl[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ULA_en'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'ULA:ULA1|N'
+Slack : 0.469
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'ULA_ctrl[0]'
+Slack : -4.730
+TNS   : -89.880
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -3.361
+TNS   : -46.007
+
+Type  : Slow 1200mV 0C Model Setup 'ULA_en'
+Slack : -3.057
+TNS   : -21.249
+
+Type  : Slow 1200mV 0C Model Setup 'ULA:ULA1|N'
+Slack : -1.999
+TNS   : -15.025
+
+Type  : Slow 1200mV 0C Model Hold 'ULA_ctrl[0]'
+Slack : -0.171
+TNS   : -0.554
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.042
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ULA:ULA1|N'
+Slack : 1.521
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'ULA_en'
+Slack : 2.084
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -53.088
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ULA_ctrl[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ULA_en'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'ULA:ULA1|N'
+Slack : 0.452
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'ULA_ctrl[0]'
+Slack : -2.704
+TNS   : -49.745
+
+Type  : Fast 1200mV 0C Model Setup 'ULA_en'
+Slack : -1.567
+TNS   : -10.867
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -1.428
+TNS   : -19.434
+
+Type  : Fast 1200mV 0C Model Setup 'ULA:ULA1|N'
+Slack : -0.687
+TNS   : -4.813
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : -0.234
+TNS   : -1.642
+
+Type  : Fast 1200mV 0C Model Hold 'ULA_ctrl[0]'
+Slack : -0.193
+TNS   : -0.977
+
+Type  : Fast 1200mV 0C Model Hold 'ULA:ULA1|N'
+Slack : 0.666
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'ULA_en'
+Slack : 1.377
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -41.026
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ULA_ctrl[0]'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ULA_en'
+Slack : -3.000
+TNS   : -3.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'ULA:ULA1|N'
+Slack : 0.409
+TNS   : 0.000
+
+------------------------------------------------------------

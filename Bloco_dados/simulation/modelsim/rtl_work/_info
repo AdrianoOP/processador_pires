@@ -1,0 +1,186 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\Bloco_dados\simulation\modelsim
+Ebloco_dados
+Z1 w1378746849
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\Bloco_dados\simulation\modelsim
+Z6 8C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/Bloco_dados/bloco_dados.vhd
+Z7 FC:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/Bloco_dados/bloco_dados.vhd
+l0
+L5
+V=1N?EUl;k5:M<HaJfiIoz3
+!s100 3H:4IO6ZOO^^i2;aC36_M2
+Z8 OV;C;10.1d;51
+31
+!i10b 1
+Z9 !s108 1378775387.903000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/Bloco_dados/bloco_dados.vhd|
+Z11 !s107 C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/Bloco_dados/bloco_dados.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Aligacoes
+R2
+R3
+R4
+DEx4 work 11 bloco_dados 0 22 =1N?EUl;k5:M<HaJfiIoz3
+l92
+L31
+Vkz=BZNZFhN=ihlATI]1<C1
+!s100 SoaFS2]Vlz1WJ=_o>Y0Di1
+R8
+31
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Eram
+Z14 w1378750999
+R2
+R3
+R4
+R5
+Z15 8C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM/RAM.vhd
+Z16 FC:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM/RAM.vhd
+l0
+L43
+VWMCnMVRof9c13>Th>74i01
+R8
+31
+Z17 !s108 1378775385.991000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM/RAM.vhd|
+Z19 !s107 C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM/RAM.vhd|
+R12
+R13
+!s100 DTCHjn@BLn^FPklIV^GZW3
+!i10b 1
+Asyn
+R2
+R3
+R4
+DEx4 work 3 ram 0 22 WMCnMVRof9c13>Th>74i01
+l88
+L57
+VI7`>O?O[8cA_b]YAFj_Ho2
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 SKDZH9jk2;:_<HKRU[:aL1
+!i10b 1
+Eregistrador
+Z20 w1377763249
+R3
+R4
+R5
+Z21 8C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador.vhd
+Z22 FC:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador.vhd
+l0
+L4
+VO>Ezf]P0db;@:_[TDl_hX0
+R8
+31
+Z23 !s108 1378775387.269000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador.vhd|
+Z25 !s107 C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador.vhd|
+R12
+R13
+!s100 >Ib?OXCjiI];[>L`Pn8:00
+!i10b 1
+Areg8b
+R3
+R4
+DEx4 work 11 registrador 0 22 O>Ezf]P0db;@:_[TDl_hX0
+l13
+L11
+V]BLe2PGm1k9fM187b9^iA2
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 iHADI72W8lj`KDMUSmHHK3
+!i10b 1
+Erom
+Z26 w1378065200
+R3
+R4
+R5
+Z27 8C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM.vhd
+Z28 FC:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM.vhd
+l0
+L42
+VCi?o`zAUXN9zYKHRZehlQ2
+R8
+31
+Z29 !s108 1378775386.799000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM.vhd|
+Z31 !s107 C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM.vhd|
+R12
+R13
+!s100 WP:MMGfHX>B>V9Z64CVC?1
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 3 rom 0 22 Ci?o`zAUXN9zYKHRZehlQ2
+l83
+L53
+Ve9cB1EoKBenf:n6b`4YZ@3
+R8
+31
+R29
+R30
+R31
+R12
+R13
+!s100 hhKeOjTQ]==D]T?a1hGjK0
+!i10b 1
+Eula
+Z32 w1378746935
+R2
+R3
+R4
+R5
+Z33 8C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA/ULA.vhd
+Z34 FC:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA/ULA.vhd
+l0
+L18
+VY>?h1PkTk7HCE`LXz]If02
+R8
+31
+Z35 !s108 1378775386.400000
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA/ULA.vhd|
+Z37 !s107 C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA/ULA.vhd|
+R12
+R13
+!s100 FRb1ck8^;DC43j7Ob0mD=0
+!i10b 1
+Aula_descrita
+R2
+R3
+R4
+DEx4 work 3 ula 0 22 Y>?h1PkTk7HCE`LXz]If02
+l33
+L28
+V]SZBNWfeR1lJzGo2hAQ3L2
+R8
+31
+R35
+R36
+R37
+R12
+R13
+!s100 EYQK:?h>?MOc@C_F6nGOD3
+!i10b 1

@@ -1,0 +1,112 @@
+\documentclass[../main.tex]{subfiles} 
+
+\begin{document}
+
+\subsection{LDA end}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & end & valor & 0bYYYYYYYY & S3 \\\hline
+	5 & 0b00000001 & end & valor & 0bYYYYYYYY & S4 \\\hline
+	6 & 0b00000002 & end & valor & 0bYYYYYYYY & S0 \\\hline	
+	\end{tabular}
+\end{table}
+
+
+%%%%%%%%%%%%instrucao STA
+\subsection{STA end}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & end & valor & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & end & valor & 0bYYYYYYYY & S3 \\\hline
+	5 & 0b00000001 & end & valor & 0bYYYYYYYY & S4 \\\hline
+	6 & 0b00000002 & end & valor & 0bYYYYYYYY & S0 \\\hline		
+	\end{tabular}
+\end{table}
+
+STA grava na RAM no estado S3
+
+
+%%%%%%%%%%%%instrucao BLT
+\subsection{BLT end}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S3 \\\hline 	
+	\end{tabular}	
+\end{table}
+
+Se A $<$ B, a ULA gera o \textit{flag \textbf{N}} e o comportamento será:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	5 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S6 \\\hline 
+	6 & end & end & 0bXXXXXXXX & 0bYYYYYYYY & S0 \\\hline 	
+	\end{tabular}	
+\end{table}
+
+Se A $>$ B, a ULA não gera o \textit{flag \textbf{N}} e o comportamento será:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	5 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S6 \\\hline 
+	6 & 0b00000002 & end & 0bXXXXXXXX & 0bYYYYYYYY & S0 \\\hline 	
+	\end{tabular}	
+\end{table}
+
+%%%%%%%%%%%%instrucao BEQ
+\subsection{BEQ end}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S3 \\\hline 	
+	\end{tabular}	
+\end{table}
+
+Se A $=$ B, a ULA gera o \textit{flag \textbf{Z}} e o comportamento será:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	5 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S6 \\\hline 
+	6 & end & end & 0bXXXXXXXX & 0bYYYYYYYY & S0 \\\hline 	
+	\end{tabular}	
+\end{table}
+
+Se A $!=$ B, a ULA não gera o \textit{flag \textbf{Z}} e o comportamento será:
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	5 & 0b00000001 & end & 0bXXXXXXXX & 0bYYYYYYYY & S6 \\\hline 
+	6 & 0b00000002 & end & 0bXXXXXXXX & 0bYYYYYYYY & S0 \\\hline 	
+	\end{tabular}	
+\end{table}
+
+\end{document}

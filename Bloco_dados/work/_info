@@ -1,0 +1,630 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\Bloco_dados
+Ebloco_dados
+Z1 w1378337450
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\Bloco_dados
+Z6 8bloco_dados.vhd
+Z7 Fbloco_dados.vhd
+l0
+L5
+VHTL[Abh^hRJW0Rlgjc9YH3
+!s100 :GMIM3e[1F<?=7:J3hK:f1
+Z8 OV;C;10.1d;51
+32
+!i10b 1
+Z9 !s108 1378337860.814000
+Z10 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_STA.vhd|
+Z11 !s107 simula_funcoes/bloco_dados_simu_STA.vhd|bloco_dados.vhd|
+o-O0
+Z12 tExplicit 1
+Aligacoes
+R2
+R3
+R4
+Z13 DEx4 work 11 bloco_dados 0 22 HTL[Abh^hRJW0Rlgjc9YH3
+l91
+L30
+Z14 VlJXTmLKo70<BBB6oEZkDZ0
+Z15 !s100 ZCDWBShSU9I4cn9f_0ncb2
+R8
+32
+!i10b 1
+R9
+R10
+R11
+o-O0
+R12
+Ebloco_dados_simu
+Z16 w1378171649
+R2
+R3
+R4
+R5
+Z17 8bloco_dados_simu.vhd
+Z18 Fbloco_dados_simu.vhd
+l0
+L6
+V`TZl^iYRmf`7^[zf2[48J2
+R8
+32
+Z19 !s108 1378179337.161000
+Z20 !s90 -reportprogress|300|bloco_dados.vhd|bloco_dados_simu.vhd|
+Z21 !s107 bloco_dados_simu.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 RNN^XZ>NzVUBLYfgJ@bWg2
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 16 bloco_dados_simu 0 22 `TZl^iYRmf`7^[zf2[48J2
+l50
+L9
+VTh@XWN3QPGnd=glTlo_JC1
+R8
+32
+R19
+R20
+R21
+o-O0
+R12
+!s100 Gz8gLezhQcb5l5WG`4eJQ3
+!i10b 1
+Ebloco_dados_simu_add
+Z22 w1378254379
+R2
+R3
+R4
+R5
+Z23 8simula_funcoes/bloco_dados_simu_ADD.vhd
+Z24 Fsimula_funcoes/bloco_dados_simu_ADD.vhd
+l0
+L6
+VTiHT^4:kBaTj5TFKn8V?]2
+R8
+32
+Z25 !s108 1378254389.096000
+Z26 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_ADD.vhd|
+Z27 !s107 simula_funcoes/bloco_dados_simu_ADD.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 =d7XoLEd@]C0fK`ALMiA53
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 20 bloco_dados_simu_add 0 22 TiHT^4:kBaTj5TFKn8V?]2
+l57
+L9
+V0z^ABh>F<cmV=e06^6cBP1
+R8
+32
+R25
+R26
+R27
+o-O0
+R12
+!s100 9B6no3n]lJD>VEkjSl1[F1
+!i10b 1
+Ebloco_dados_simu_and
+Z28 w1378257307
+R2
+R3
+R4
+R5
+Z29 8simula_funcoes/bloco_dados_simu_AND.vhd
+Z30 Fsimula_funcoes/bloco_dados_simu_AND.vhd
+l0
+L6
+V`JL:O5mI2V2cELOdeR=2R2
+R8
+32
+Z31 !s108 1378257352.767000
+Z32 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_AND.vhd|
+Z33 !s107 simula_funcoes/bloco_dados_simu_AND.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 hMhB9I:cb31Q^G>8nSiO:3
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 20 bloco_dados_simu_and 0 22 `JL:O5mI2V2cELOdeR=2R2
+l57
+L9
+VXLm]zi_ChPd<7_QKjRG3=0
+R8
+32
+R31
+R32
+R33
+o-O0
+R12
+!s100 @>An:Ej>^ilH4T_jE5l@>1
+!i10b 1
+Ebloco_dados_simu_beq
+Z34 w1378250288
+R2
+R3
+R4
+R5
+Z35 8simula_funcoes/bloco_dados_simu_BEQ.vhd
+Z36 Fsimula_funcoes/bloco_dados_simu_BEQ.vhd
+l0
+L6
+V6BCX6=0[zPlcokod_i60m0
+R8
+32
+Z37 !s108 1378250297.199000
+Z38 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_BEQ.vhd|
+Z39 !s107 simula_funcoes/bloco_dados_simu_BEQ.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 3_5:cmTBhdGn[^9dPF8f30
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 20 bloco_dados_simu_beq 0 22 6BCX6=0[zPlcokod_i60m0
+l57
+L9
+V0Mje;mifiJTm5RlI1gzA30
+R8
+32
+R37
+R38
+R39
+o-O0
+R12
+!s100 Z5X1^FoEQYe_SPbUZLWS12
+!i10b 1
+Ebloco_dados_simu_blt
+Z40 w1378249129
+R2
+R3
+R4
+R5
+Z41 8simula_funcoes/bloco_dados_simu_BLT.vhd
+Z42 Fsimula_funcoes/bloco_dados_simu_BLT.vhd
+l0
+L6
+V^@KYI^M75464>Q^bL5MSn3
+R8
+32
+Z43 !s108 1378249141.072000
+Z44 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_BLT.vhd|
+Z45 !s107 simula_funcoes/bloco_dados_simu_BLT.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 MmH[H>_l]4PHlA>JQ1McQ0
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 20 bloco_dados_simu_blt 0 22 ^@KYI^M75464>Q^bL5MSn3
+l57
+L9
+VL>C4MG>QE4`B?1C^L]j3o3
+R8
+32
+R43
+R44
+R45
+o-O0
+R12
+!s100 Eog44ZB?4RMQfJH9mOL]B0
+!i10b 1
+Ebloco_dados_simu_halt
+Z46 w1378251958
+R2
+R3
+R4
+R5
+Z47 8simula_funcoes/bloco_dados_simu_HALT.vhd
+Z48 Fsimula_funcoes/bloco_dados_simu_HALT.vhd
+l0
+L6
+VIQdY`dFRfl`LzVb:F>9`J3
+R8
+32
+Z49 !s108 1378251974.129000
+Z50 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_HALT.vhd|
+Z51 !s107 simula_funcoes/bloco_dados_simu_HALT.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 P9V`DYS`6=nLh::n>@k;Q2
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 21 bloco_dados_simu_halt 0 22 IQdY`dFRfl`LzVb:F>9`J3
+l57
+L9
+V6VWh;o>aVO_^eg]3hP?2=3
+R8
+32
+R49
+R50
+R51
+o-O0
+R12
+!s100 7ULJXe7i_gDni[JclE0bi2
+!i10b 1
+Ebloco_dados_simu_lda
+Z52 w1378336342
+R2
+R3
+R4
+R5
+Z53 8simula_funcoes/bloco_dados_simu_LDA.vhd
+Z54 Fsimula_funcoes/bloco_dados_simu_LDA.vhd
+l0
+L6
+VDMzE8YjkI=B6lGAVQS4D[1
+R8
+32
+Z55 !s108 1378336351.824000
+Z56 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_LDA.vhd|
+Z57 !s107 simula_funcoes/bloco_dados_simu_LDA.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 Ec1mVJOJeRP:jPURYR;mO1
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 20 bloco_dados_simu_lda 0 22 DMzE8YjkI=B6lGAVQS4D[1
+l59
+L9
+VII=`fjg=9SL5i@dBnIAc:2
+R8
+32
+R55
+R56
+R57
+o-O0
+R12
+!s100 SAOH0Eg@04bgLRnSBGb>22
+!i10b 1
+Ebloco_dados_simu_li
+Z58 w1378250897
+R2
+R3
+R4
+R5
+Z59 8simula_funcoes/bloco_dados_simu_LI.vhd
+Z60 Fsimula_funcoes/bloco_dados_simu_LI.vhd
+l0
+L6
+Vk`CXm4E4ej>Zd5d_S89lF0
+R8
+32
+Z61 !s108 1378250912.578000
+Z62 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_LI.vhd|
+Z63 !s107 simula_funcoes/bloco_dados_simu_LI.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 PU2>f@@h>oK<1T02<]?4l0
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 19 bloco_dados_simu_li 0 22 k`CXm4E4ej>Zd5d_S89lF0
+l57
+L9
+VdYB4Q9>^Zdc;0B582N^5z3
+R8
+32
+R61
+R62
+R63
+o-O0
+R12
+!s100 :OD?K5ZhEhLfA[ch6gea[1
+!i10b 1
+Ebloco_dados_simu_not
+Z64 w1378260106
+R2
+R3
+R4
+R5
+Z65 8simula_funcoes/bloco_dados_simu_NOT.vhd
+Z66 Fsimula_funcoes/bloco_dados_simu_NOT.vhd
+l0
+L6
+Vo?84h]OgF:i1KV9B]H`DO2
+R8
+32
+Z67 !s108 1378260133.045000
+Z68 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_NOT.vhd|
+Z69 !s107 simula_funcoes/bloco_dados_simu_NOT.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 MGPiQF4kDccm>g;_F1o^A2
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 20 bloco_dados_simu_not 0 22 o?84h]OgF:i1KV9B]H`DO2
+l57
+L9
+V2Af7k_6bUoaH4dEVg=?=10
+R8
+32
+R67
+R68
+R69
+o-O0
+R12
+!s100 Slh0WG5NjhdLRg?5ScOHm0
+!i10b 1
+Ebloco_dados_simu_or
+Z70 w1378260651
+R2
+R3
+R4
+R5
+Z71 8simula_funcoes/bloco_dados_simu_OR.vhd
+Z72 Fsimula_funcoes/bloco_dados_simu_OR.vhd
+l0
+L6
+VGLh7JJ1njF8KNM21NiFG80
+R8
+32
+Z73 !s108 1378260672.055000
+Z74 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_OR.vhd|
+Z75 !s107 simula_funcoes/bloco_dados_simu_OR.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 ^9RC6jcgDf^02[oDEnm_j3
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 19 bloco_dados_simu_or 0 22 GLh7JJ1njF8KNM21NiFG80
+l57
+L9
+VQ52dg75UhdWJ@Te<GLlOJ1
+R8
+32
+R73
+R74
+R75
+o-O0
+R12
+!s100 DNzFFNUUeMJimGlVcHDSI3
+!i10b 1
+Ebloco_dados_simu_sta
+Z76 w1378337853
+R2
+R3
+R4
+R5
+Z77 8simula_funcoes/bloco_dados_simu_STA.vhd
+Z78 Fsimula_funcoes/bloco_dados_simu_STA.vhd
+l0
+L6
+VB6MTZ]k?jIn9hlU8C242d3
+!s100 LEJFBEnD>KEXh:_F;^_bK3
+R8
+32
+!i10b 1
+R9
+R10
+R11
+o-O0
+R12
+Aestimulos
+R2
+R3
+R4
+Z79 DEx4 work 20 bloco_dados_simu_sta 0 22 B6MTZ]k?jIn9hlU8C242d3
+l58
+L9
+V2UndO0bTBYlD3GKC>Mgg?0
+!s100 icC:]h[P27GRdjS=?nT7i0
+R8
+32
+!i10b 1
+R9
+R10
+R11
+o-O0
+R12
+Ebloco_dados_simu_swp
+Z80 w1378268695
+R2
+R3
+R4
+R5
+Z81 8simula_funcoes/bloco_dados_simu_SWP.vhd
+Z82 Fsimula_funcoes/bloco_dados_simu_SWP.vhd
+l0
+L6
+VmneBekKQ5z8BUjgUEY^1m3
+R8
+32
+Z83 !s108 1378268704.168000
+Z84 !s90 -reportprogress|300|bloco_dados.vhd|simula_funcoes/bloco_dados_simu_SWP.vhd|
+Z85 !s107 simula_funcoes/bloco_dados_simu_SWP.vhd|bloco_dados.vhd|
+o-O0
+R12
+!s100 ;UC4:iMBTJ^4dRAK5@[9J0
+!i10b 1
+Aestimulos
+R2
+R3
+R4
+DEx4 work 20 bloco_dados_simu_swp 0 22 mneBekKQ5z8BUjgUEY^1m3
+l60
+L9
+VJFNV=_R?aei5Lh0hgXf1h0
+R8
+32
+R83
+R84
+R85
+o-O0
+R12
+!s100 =b=j6jienRZJ3<3d[jLU?1
+!i10b 1
+Eram
+Z86 w1378336932
+R2
+R3
+R4
+R5
+Z87 8../RAM/RAM.vhd
+Z88 F../RAM/RAM.vhd
+l0
+L43
+V`1`5B5JWba_]bl3@HC>Uk3
+R8
+32
+Z89 !s108 1378337860.492000
+Z90 !s90 -reportprogress|300|../RAM/RAM.vhd|
+Z91 !s107 ../RAM/RAM.vhd|
+o-O0
+R12
+!s100 DTCHjn@BLn^FPklIV^GZW3
+!i10b 1
+Asyn
+R2
+R3
+R4
+DEx4 work 3 ram 0 22 `1`5B5JWba_]bl3@HC>Uk3
+l88
+L57
+V3[;E2;FLS;TOOHI88EW6z1
+!s100 SKDZH9jk2;:_<HKRU[:aL1
+R8
+32
+R89
+R90
+R91
+o-O0
+R12
+!i10b 1
+Eregistrador
+Z92 w1377763249
+R3
+R4
+R5
+Z93 8../registrador/registrador.vhd
+Z94 F../registrador/registrador.vhd
+l0
+L4
+VCL4@cDZK^RZOU@G4YZYaa1
+R8
+32
+Z95 !s108 1378337859.336000
+Z96 !s90 -reportprogress|300|../registrador/registrador.vhd|
+Z97 !s107 ../registrador/registrador.vhd|
+o-O0
+R12
+!s100 >Ib?OXCjiI];[>L`Pn8:00
+!i10b 1
+Areg8b
+R3
+R4
+DEx4 work 11 registrador 0 22 CL4@cDZK^RZOU@G4YZYaa1
+l13
+L11
+VUbIMoJZ5FXaZO1GUF0O<71
+R8
+32
+R95
+R96
+R97
+o-O0
+R12
+!s100 iHADI72W8lj`KDMUSmHHK3
+!i10b 1
+Erom
+Z98 w1378065200
+R3
+R4
+R5
+Z99 8../ROM/ROM.vhd
+Z100 F../ROM/ROM.vhd
+l0
+L42
+V>AQ;Z8M_ckiI=Llm?1l5i2
+R8
+32
+Z101 !s108 1378337860.046000
+Z102 !s90 -reportprogress|300|../ROM/ROM.vhd|
+Z103 !s107 ../ROM/ROM.vhd|
+o-O0
+R12
+!s100 WP:MMGfHX>B>V9Z64CVC?1
+!i10b 1
+Asyn
+R3
+R4
+DEx4 work 3 rom 0 22 >AQ;Z8M_ckiI=Llm?1l5i2
+l83
+L53
+V?30:VV_n[W?NZ=[d>B@BN3
+R8
+32
+R101
+R102
+R103
+o-O0
+R12
+!s100 hhKeOjTQ]==D]T?a1hGjK0
+!i10b 1
+Eula
+Z104 w1378266105
+R2
+R3
+R4
+R5
+Z105 8../ULA/ULA.vhd
+Z106 F../ULA/ULA.vhd
+l0
+L18
+Vgi3KKV_kVU5V:zAX7Vi1K0
+R8
+32
+Z107 !s108 1378337859.719000
+Z108 !s90 -reportprogress|300|../ULA/ULA.vhd|
+Z109 !s107 ../ULA/ULA.vhd|
+o-O0
+R12
+!s100 FRb1ck8^;DC43j7Ob0mD=0
+!i10b 1
+Aula_descrita
+R2
+R3
+R4
+DEx4 work 3 ula 0 22 gi3KKV_kVU5V:zAX7Vi1K0
+l33
+L28
+VTW^:D7NJBUaMaDagnJJHW2
+R8
+32
+R107
+R108
+R109
+o-O0
+R12
+!s100 [LDnOc9>=FLL7FaA429163
+!i10b 1

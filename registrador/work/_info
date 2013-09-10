@@ -4,7 +4,7 @@ K3
 cModel Technology
 Z0 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\registrador
 Eregistrador
-Z1 w1377731466
+Z1 w1377763249
 Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
 Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
 Z4 dC:\Sites\Dropbox\temporaria\trabalho_microprocessadores\processador_pires\registrador
@@ -12,12 +12,12 @@ Z5 8registrador.vhd
 Z6 Fregistrador.vhd
 l0
 L4
-VehYeEk0RB:^`ho]FZNGl=3
-!s100 UZDE4R8`V]45BjV7TPg=G0
+VCL4@cDZK^RZOU@G4YZYaa1
+!s100 >Ib?OXCjiI];[>L`Pn8:00
 Z7 OV;C;10.1d;51
 32
 !i10b 1
-Z8 !s108 1377731679.366000
+Z8 !s108 1377765643.443000
 Z9 !s90 -reportprogress|300|registrador.vhd|registrador_simu.vhd|
 Z10 !s107 registrador_simu.vhd|registrador.vhd|
 o-O0
@@ -25,11 +25,11 @@ Z11 tExplicit 1
 Areg8b
 R2
 R3
-Z12 DEx4 work 11 registrador 0 22 ehYeEk0RB:^`ho]FZNGl=3
+DEx4 work 11 registrador 0 22 CL4@cDZK^RZOU@G4YZYaa1
 l13
 L11
-Z13 VY`DeXlfEhJB@ReNkb_[PS0
-Z14 !s100 0k:NcGoiRZ70bZ@L3SMdT2
+VUbIMoJZ5FXaZO1GUF0O<71
+!s100 iHADI72W8lj`KDMUSmHHK3
 R7
 32
 !i10b 1
@@ -39,12 +39,12 @@ R10
 o-O0
 R11
 Eregistrador_simu
-Z15 w1377731671
+Z12 w1377763207
 R2
 R3
 R4
-Z16 8registrador_simu.vhd
-Z17 Fregistrador_simu.vhd
+Z13 8registrador_simu.vhd
+Z14 Fregistrador_simu.vhd
 l0
 L4
 VM3P^UIJQZc;[KI]o3F0CK2
@@ -60,11 +60,11 @@ R11
 Aestimulos
 R2
 R3
-Z18 DEx4 work 16 registrador_simu 0 22 M3P^UIJQZc;[KI]o3F0CK2
+Z15 DEx4 work 16 registrador_simu 0 22 M3P^UIJQZc;[KI]o3F0CK2
 l23
 L7
-V3BE[:bPf6JgO:]XFG4YTO0
-!s100 60kUS9Qgb]jUToWMdRfL62
+V0jMYJUI:VAD5Va^jW1^o10
+!s100 afFJ1JQNB6=if2[z1M@?m2
 R7
 32
 !i10b 1

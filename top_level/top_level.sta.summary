@@ -1,0 +1,77 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'controle:controlador|PC_en'
+Slack : -6.284
+TNS   : -44.933
+
+Type  : Slow Model Setup 'bloco_dados:bloco|ULA:ULA1|saida[0]'
+Slack : -3.408
+TNS   : -25.817
+
+Type  : Slow Model Setup 'clk_master'
+Slack : -1.914
+TNS   : -15.599
+
+Type  : Slow Model Hold 'clk_master'
+Slack : -2.557
+TNS   : -23.493
+
+Type  : Slow Model Hold 'bloco_dados:bloco|ULA:ULA1|saida[0]'
+Slack : 3.165
+TNS   : 0.000
+
+Type  : Slow Model Hold 'controle:controlador|PC_en'
+Slack : 4.425
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'clk_master'
+Slack : -2.000
+TNS   : -113.380
+
+Type  : Slow Model Minimum Pulse Width 'bloco_dados:bloco|ULA:ULA1|saida[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'controle:controlador|PC_en'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Setup 'controle:controlador|PC_en'
+Slack : -2.945
+TNS   : -21.137
+
+Type  : Fast Model Setup 'bloco_dados:bloco|ULA:ULA1|saida[0]'
+Slack : -1.796
+TNS   : -13.720
+
+Type  : Fast Model Setup 'clk_master'
+Slack : -1.460
+TNS   : -11.680
+
+Type  : Fast Model Hold 'clk_master'
+Slack : -1.597
+TNS   : -16.341
+
+Type  : Fast Model Hold 'bloco_dados:bloco|ULA:ULA1|saida[0]'
+Slack : 2.273
+TNS   : 0.000
+
+Type  : Fast Model Hold 'controle:controlador|PC_en'
+Slack : 2.711
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'clk_master'
+Slack : -2.000
+TNS   : -113.380
+
+Type  : Fast Model Minimum Pulse Width 'bloco_dados:bloco|ULA:ULA1|saida[0]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'controle:controlador|PC_en'
+Slack : 0.500
+TNS   : 0.000
+
+------------------------------------------------------------

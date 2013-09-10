@@ -1,0 +1,51 @@
+# Reading C:/altera/12.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do bloco_dados_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\12.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/RAM/RAM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RAM
+# -- Compiling architecture SYN of ram
+# vcom -93 -work work {C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ULA/ULA.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ULA
+# -- Compiling architecture ula_descrita of ULA
+# vcom -93 -work work {C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/ROM/ROM.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ROM
+# -- Compiling architecture SYN of rom
+# vcom -93 -work work {C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/registrador/registrador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity registrador
+# -- Compiling architecture reg8b of registrador
+# vcom -93 -work work {C:/Sites/Dropbox/temporaria/trabalho_microprocessadores/processador_pires/Bloco_dados/bloco_dados.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity bloco_dados
+# -- Compiling architecture ligacoes of bloco_dados
+# 

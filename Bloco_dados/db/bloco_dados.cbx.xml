@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="bloco_dados">
+		<CBX_INST_ENTRY INSTANCE_NAME="|bloco_dados|RAM:RAM1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_h1b1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bloco_dados|ROM:ROM1|altsyncram:altsyncram_component" CBX_FILE_NAME="altsyncram_9v81.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bloco_dados|ULA:ULA1|lpm_mult:Mult0" CBX_FILE_NAME="mult_17t.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bloco_dados|ULA:ULA1|lpm_mult:Mult0|mult_17t:auto_generated|alt_mac_out:mac_out2" CBX_FILE_NAME="mac_out_ov82.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|bloco_dados|ULA:ULA1|lpm_mult:Mult0|mult_17t:auto_generated|alt_mac_mult:mac_mult1" CBX_FILE_NAME="mac_mult_jah1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

@@ -1,0 +1,129 @@
+\documentclass[../main.tex]{subfiles} 
+
+\begin{document}
+
+%%%%%%%%%%%%instrucao ADD
+\subsection{ADD}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & 0bZZZZZZZZ & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & 0bZZZZZZZZ & A+B & 0bYYYYYYYY & S3 \\\hline
+	5 & 0b00000001 & 0bZZZZZZZZ & A+B & 0bYYYYYYYY & S4 \\\hline
+	6 & 0b00000002 & 0bZZZZZZZZ & A+B & 0bYYYYYYYY & S0 \\\hline	
+	\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%instrucao MUL
+\subsection{MUL}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx  \\\hline
+	3 & 0b00000001 & 0bZZZZZZZZ & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & 0bZZZZZZZZ & LSB(A*B) & 0bYYYYYYYY & S7 \\\hline
+	5 & 0b00000001 & 0bZZZZZZZZ & LSB(A*B) & HSB(A*B) & S8 \\\hline
+	6 & 0b00000002 & 0bZZZZZZZZ & LSB(A*B) & HSB(A*B) & S0 \\\hline	
+	\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%instrucao AND
+\subsection{AND}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & 0bZZZZZZZZ & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & 0bZZZZZZZZ & A AND B & 0bYYYYYYYY & S3 \\\hline
+	5 & 0b00000001 & 0bZZZZZZZZ & A AND B & 0bYYYYYYYY & S4 \\\hline
+	6 & 0b00000002 & 0bZZZZZZZZ & A AND B & 0bYYYYYYYY & S0 \\\hline	
+	\end{tabular}
+\end{table}
+
+
+%%%%%%%%%%%%instrucao OR
+\subsection{OR}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & 0bZZZZZZZZ & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & 0bZZZZZZZZ & A OR B & 0bYYYYYYYY & S3 \\\hline
+	5 & 0b00000001 & 0bZZZZZZZZ & A OR B & 0bYYYYYYYY & S4 \\\hline
+	6 & 0b00000002 & 0bZZZZZZZZ & A OR B & 0bYYYYYYYY & S0 \\\hline	
+	\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%instrucao NOT
+\subsection{NOT}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & 0bZZZZZZZZ & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & 0bZZZZZZZZ & NOT A & 0bYYYYYYYY & S3 \\\hline
+	5 & 0b00000001 & 0bZZZZZZZZ & NOT A & 0bYYYYYYYY & S4 \\\hline
+	6 & 0b00000002 & 0bZZZZZZZZ & NOT A & 0bYYYYYYYY & S0 \\\hline	
+	\end{tabular}
+\end{table}
+
+%%%%%%%%%%%%instrucao SWP
+\subsection{SWP}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|c|} %7 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx & Observação\\\hline
+	3 & 0b00000001 & 0bZZZZZZZZ & 0bXXXXXXXX & 0bYYYYYYYY & S2 & - \\\hline 
+	4 & 0b00000001 & 0bZZZZZZZZ & B & 0bYYYYYYYY & S3 & $ULA\_en=0$\\\hline
+	5 & 0b00000001 & 0bZZZZZZZZ & B & A & S5 & $ULA\_en=1$\\\hline
+	6 & 0b00000001 & 0bZZZZZZZZ & B & A & S4 & - \\\hline
+	7 & 0b00000002 & 0bZZZZZZZZ & B & A & S0 & - \\\hline	
+	\end{tabular}
+\end{table}
+
+No estado S3, o processador joga o valor de A para a ULA e depois a desabilita (comportamento de latch). Como A só carrega o seu valor na borda
+de descida do clock, é possível no mesmo ciclo Armazenar B em A e deixar o valor antigo de A armazenado (através de Latches) na ULA.
+
+%%%%%%%%%%%%instrucao LI
+\subsection{LI const}
+
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & const & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	4 & 0b00000001 & const & const & 0bYYYYYYYY & S3 \\\hline
+	5 & 0b00000001 & const & const & 0bYYYYYYYY & S4 \\\hline
+	6 & 0b00000002 & const & const & 0bYYYYYYYY & S0 \\\hline	
+	\end{tabular}
+\end{table}
+
+\section{Instruções tipo I}
+
+%%%%%%%%%%%%instrucao LI
+\subsection{HALT}
+\begin{table}[H]
+	\centering
+	\begin{tabular}{|c|c|c|c|c|c|} %6 colunas
+	\hline
+	CLK & PC & IR & A& B & Sx \\\hline
+	3 & 0b00000001 & 0bZZZZZZZZ & 0bXXXXXXXX & 0bYYYYYYYY & S2 \\\hline 
+	6 & 0b00000000 & 0bZZZZZZZZ & 0bXXXXXXXX & 0bYYYYYYYY & S0 \\\hline	
+	\end{tabular}
+\end{table}
+
+\end{document}

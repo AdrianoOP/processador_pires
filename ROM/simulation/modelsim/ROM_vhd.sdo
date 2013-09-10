@@ -24,7 +24,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "ROM")
-  (DATE "08/28/2013 01:05:57")
+  (DATE "09/02/2013 22:19:49")
   (VENDOR "Altera")
   (PROGRAM "Quartus II 32-bit")
   (VERSION "Version 12.0 Build 232 07/05/2012 Service Pack 1 SJ Web Edition")
@@ -166,13 +166,13 @@
     (INSTANCE \\altsyncram_component\|auto_generated\|ram_block1a0\\.addr_a_register)
     (DELAY
       (ABSOLUTE
-        (PORT d[0] (5645:5645:5645) (5645:5645:5645))
+        (PORT d[0] (5706:5706:5706) (5706:5706:5706))
         (PORT d[1] (6427:6427:6427) (6427:6427:6427))
         (PORT d[2] (5686:5686:5686) (5686:5686:5686))
         (PORT d[3] (5890:5890:5890) (5890:5890:5890))
         (PORT d[4] (5439:5439:5439) (5439:5439:5439))
         (PORT d[5] (5842:5842:5842) (5842:5842:5842))
-        (PORT d[6] (5904:5904:5904) (5904:5904:5904))
+        (PORT d[6] (6082:6082:6082) (6082:6082:6082))
         (PORT d[7] (5471:5471:5471) (5471:5471:5471))
         (PORT clk (1581:1581:1581) (1581:1581:1581))
         (PORT ena (6569:6569:6569) (6569:6569:6569))
@@ -201,25 +201,8 @@
     (DELAY
       (ABSOLUTE
         (PORT clk (1790:1790:1790) (1790:1790:1790))
-        (IOPATH (posedge clk) pulse (0:0:0) (2024:2024:2024))
+        (IOPATH (posedge clk) pulse (0:0:0) (2123:2123:2123))
       )
-    )
-  )
-  (CELL
-    (CELLTYPE "cycloneii_ram_register")
-    (INSTANCE \\altsyncram_component\|auto_generated\|ram_block1a0\\.dataout_a_register)
-    (DELAY
-      (ABSOLUTE
-        (PORT clk (1555:1555:1555) (1555:1555:1555))
-        (PORT ena (6543:6543:6543) (6543:6543:6543))
-        (IOPATH (posedge clk) q (297:297:297) (297:297:297))
-      )
-    )
-    (TIMINGCHECK
-      (SETUP d (posedge clk) (35:35:35))
-      (SETUP ena (posedge clk) (35:35:35))
-      (HOLD d (posedge clk) (234:234:234))
-      (HOLD ena (posedge clk) (234:234:234))
     )
   )
   (CELL
@@ -277,7 +260,7 @@
     (INSTANCE \\q\[5\]\~I\\.asynch_inst)
     (DELAY
       (ABSOLUTE
-        (PORT datain (1408:1408:1408) (1408:1408:1408))
+        (PORT datain (1432:1432:1432) (1432:1432:1432))
         (IOPATH datain padio (2768:2768:2768) (2768:2768:2768))
       )
     )

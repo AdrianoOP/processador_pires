@@ -1,0 +1,69 @@
+\documentclass[a4paper]{ufscThesis}
+\usepackage{url}
+\usepackage[pdftex]{graphicx}
+\usepackage[utf8]{inputenc}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{subfiles}
+\usepackage{listings}
+\usepackage{color}
+
+
+\definecolor{mygreen}{rgb}{0,0.6,0}
+\definecolor{mygray}{rgb}{0.5,0.5,0.5}
+\definecolor{mymauve}{rgb}{0.58,0,0.82}
+
+\titulo{Projeto e implementação em VHDL para FPGAs de arquitetura com conjunto super-reduzido de instruções}
+\subtitulo{Processador PIRES}
+\autor{Adriano Oliveira Pires}
+\data{10}{Setembro}{2013}
+
+
+
+
+\orientador{Prof. Eduardo Augusto Bezerra}                    % Nome do orientador e (opcional) seu título
+\coorientador{Prof. Djones Vinicius Lettnin}                % Nome do coorientador e seu título (opcional)
+\coordenador{Prof. Chefe, Dr. Eng.}              % Nome do coordenador do curso e (opcional) seu título
+
+\departamento[a]{Centro de Tecnologia e Ciência} %parametro a indica que eh feminino
+\curso[a]{EEL 4100 38 - Sistemas Digitais e Dispositivos Lógicos Reconfiguráveis}%
+
+%%% Sobre a Banca
+\numerodemembrosnabanca{0} % Isso decide se haverá uma folha adicional
+\orientadornabanca{não} % Se faz parte da banca definir como sim
+\coorientadornabanca{não} % Se faz parte da banca definir como sim
+
+
+\begin{document}
+\def\PC{\textbf{PC}}
+\def\A{\textbf{A}}
+\def\B{\textbf{B}}
+\def\IR{\textbf{IR}}
+
+\capa
+\folhaderosto{Trabalho de conclusão apresentado à disciplina EEL4100 38 - Sistemas Digitais e Dispositivos Lógicos Reconfiguráveis, para fim de avaliação parcial.} %opcao [comficha]
+
+\chapter{Especificações}
+	\subfile{cap/especificacoes}
+\chapter{Arquitetura Projetada}
+		\subfile{cap/arquitetura_geral}
+	\section{Bloco de Dados}
+		\subfile{cap/bloco_dados}
+	\section{Bloco de controle}
+		\subfile{cap/bloco_controle}
+	\section{Valores dos Registradores para cada opcode}
+		\subfile{cap/valores_registradores}
+\chapter{Implementação}
+	\section{Bloco de Dados}
+		\subfile{cap/bloco_dados_real}
+	
+	\section{O Processador Pires}
+	\label{sec:processador_real}
+		\subfile{cap/processador_real}
+	
+	\section{Simulação de um programa em Assembly}
+	\label{sec:simulacao}
+		\subfile{cap/simulacao}
+\end{document}
